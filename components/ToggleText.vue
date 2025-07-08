@@ -6,7 +6,7 @@
         :class="[
           'transition-opacity duration-500', 
           {
-            'text-gray-900 hover:text-gray-500': currentText === initialText,
+            'text-white hover:text-[#B1B1BE]': currentText === initialText,
             'text-emerald-500': currentText === toggledText,
             'opacity-0': isToggling,
           }

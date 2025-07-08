@@ -1,11 +1,11 @@
 <template>
   <div
-    class="overflow-hidden relative mx-auto w-full rounded-2xl cursor-pointer"
+    class="relative w-full mx-auto overflow-hidden border cursor-pointer border-white/80 rounded-2xl"
     @click="togglePlay"
   >
     <video
       ref="video"
-      class="w-full h-auto"
+      class="w-full h-full object-fit"
       autoplay
       muted
       loop

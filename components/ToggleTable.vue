@@ -1,11 +1,11 @@
 <template>
-    <div class="flex mt-4">
-        <button @click="toggleTable" class="px-2 py-1 text-xs text-white bg-blue-500 rounded h-fit">
-        {{ showFirstTable ? 'Default' : 'Split' }}
+    <div class="flex">
+        <button @click="toggleTable" class="px-2 py-1 text-sm text-white bg-[#5F5ADF] rounded h-fit">
+        {{ showFirstTable ? '未拆步驟' : '拆分步驟' }}
         </button>
   
    <div v-if="showFirstTable" class="mx-auto overflow-hidden border border-gray-300 w-2xl rounded-xl">
-    <table class="w-full text-xs">
+    <table class="w-full text-xs text-gray-900 bg-white">
     <thead class="text-center bg-gray-100">
         <tr>
         <th class="px-4 py-2 text-center">步驟</th>
@@ -61,7 +61,7 @@
     </table>
   </div>
   <div v-else class="mx-auto overflow-hidden border border-gray-300 w-2xl rounded-xl">
-    <table class="w-full text-xs">
+    <table class="w-full text-xs text-gray-900 bg-white">
       <thead class="text-center bg-gray-100">
         <tr>
           <th class="px-4 py-2 text-center">步驟</th>
@@ -97,7 +97,7 @@
           <td class="px-4 py-2">2</td>
           <td class="px-4 py-2">86.1%</td>
         </tr>
-        <tr class="text-center bg-blue-50">
+        <tr class="text-center bg-green-100">
           <td class="px-4 py-2">填寫個人資料表</td>
           <td class="px-4 py-2"><code>fill_personal_info</code></td>
           <td class="px-4 py-2">58</td>
@@ -105,7 +105,7 @@
           <td class="px-4 py-2">8</td>
           <td class="px-4 py-2">69.4%</td>
         </tr>
-        <tr class="text-center bg-blue-50">
+        <tr class="text-center bg-green-100">
           <td class="px-4 py-2">填寫上傳文件表</td>
           <td class="px-4 py-2"><code>fill_upload_documents</code></td>
           <td class="px-4 py-2">50</td>
@@ -113,7 +113,7 @@
           <td class="px-4 py-2">2</td>
           <td class="px-4 py-2">66.7%</td>
         </tr>
-        <tr class="text-center bg-blue-50">
+        <tr class="text-center bg-green-100">
           <td class="px-4 py-2">送出報名表單</td>
           <td class="px-4 py-2"><code>submit_registration</code></td>
           <td class="px-4 py-2">48</td>

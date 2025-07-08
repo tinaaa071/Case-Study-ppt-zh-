@@ -60,10 +60,10 @@
       type: Array,
       required: true,
       default: () => [
-        { time: "2021", work: "Researcher", content: "CIER" },
-        { time: "2021", work: "Project Manager", content: "TCA" },
-        { time: "2022", work: "UI/UX Designer", content: "JING WEI Co." },
-        { time: "2023", work: "UI/UX Designer", content: "UARK" },
+        { time: "2021", work: "研究人員", content: "中華經濟研究院" },
+        { time: "2021", work: "專案經理", content: "台北市電腦公會" },
+        { time: "2022", work: "UI/UX 設計師", content: "經緯電通" },
+        { time: "2023", work: "UI/UX 設計師", content: "諾亞克科技" },
       ],
     },
   });

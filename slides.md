@@ -34,16 +34,22 @@ mdc: true
   />
   </div>
   <div class="w-full">
-    <p class="text-lg font-black">
-      I am a UI/UX designer with 3 years of experience and a background in Business Administration.
+    <p class="text-lg font-black tracking-wide">
+      我是一位具有 3 年經驗的 UI/UX 設計師，擁有企業管理碩士背景。
     </p>
-    <ul class="text-sm">
-      <li>Passion-Driven</li>
-      <li>Curious-Minded</li>
-      <li>Quick Learner</li>
+    <ul class="text-md">
+      <li>熱情驅動</li>
+      <li>充滿好奇心</li>
+      <li>學習速度快</li>
     </ul>
   </div>
 </div>
+
+<style>
+  .slidev-layout p {
+    line-height: unset;
+}
+</style>
 
 <!--
 大家好，我是 Tina，擁有三年的 UI/UX 設計經驗，並具備<span style="color:red;">***企業管理碩士學位***</span>。

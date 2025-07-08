@@ -1,9 +1,9 @@
 <template>
-    <div class="flex relative gap-28 items-center left-1/12">
+    <div class="relative flex items-center gap-28 left-1/12">
       <div
         v-for="(event, index) in events"
         :key="index"
-        class="flex relative flex-col items-center space-y-4"
+        class="relative flex flex-col items-center space-y-4"
       >
         <!-- 上方的時間 -->
         <div class="text-center">
@@ -11,27 +11,27 @@
         </div>
   
         <!-- 圓點 -->
-        <span class="flex relative w-3 h-3">
-          <span class="inline-flex absolute w-full h-full bg-sky-400 rounded-full opacity-75 animate-ping"></span>
-          <span class="inline-flex relative w-3 h-3 bg-sky-500 rounded-full"></span>
+        <span class="relative flex w-3 h-3">
+          <span class="absolute inline-flex w-full h-full rounded-full opacity-75 bg-[#D8D5FF] animate-ping"></span>
+          <span class="relative inline-flex w-3 h-3 rounded-full bg-[#B7B3F4]"></span>
         </span>
   
         <!-- 下方的事件內容 -->
         <div class="flex flex-col items-center w-20 whitespace-nowrap">
           <p class="text-sm font-black">{{ event.work }}</p>
-          <p class="text-xs font-semibold text-blue-500 dark:text-blue-300">{{ event.content }}</p>
+          <p class="text-xs font-semibold text-[#B7B3F4] dark:text-blue-300">{{ event.content }}</p>
         </div>
   
         <!-- 水平線 -->
         <div
-          class="absolute top-16 w-32 h-0.5 bg-blue-300 rounded-full transform translate-x-1/2 left-1/9"
+          class="absolute top-16 w-32 h-0.5 bg-[#B7B3F4] rounded-full transform translate-x-1/2 left-1/9"
           v-if="index < events.length - 1"
         ></div>
   
         <!-- 最後一個圓點右方的虛線水平線 -->
         <div
           v-if="index === events.length - 1"
-          class="absolute top-16 w-32 border-t-2 border-orange-300 border-dashed transform translate-x-1/2 left-1/9"
+          class="absolute w-32 transform translate-x-1/2 border-t-2 border-orange-300 border-dashed top-16 left-1/9"
         ></div>
   
         <!-- 右側箭頭 -->

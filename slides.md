@@ -22,7 +22,7 @@ transition: slide-up
 mdc: true
 ---
 
-<div class="flex flex-row items-center justify-center h-full gap-24 px-32 py-14">
+<div class="flex flex-row items-center justify-center h-full gap-24 px-32 text-white py-14 bg-[#23232E]">
   <div class="relative w-1/2">
     <div class="absolute z-10 -left-4 -top-8 w-52">
       <ChatBubble />
@@ -61,9 +61,9 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col h-full gap-20 text-center py-14">
-  <p class="text-4xl font-black">Work Experiences</p>
-  <div class="flex items-center w-full px-6 py-4 bg-blue-50/70 dark:bg-blue-900">
+<div class="flex flex-col h-full gap-20 text-center bg-[#23232E] text-white py-14">
+  <p class="text-4xl font-black">工作經驗</p>
+  <div class="flex items-center w-full px-6 py-4 bg-[#4A4A58]">
     <Timeline />
   </div>
 </div>
@@ -79,99 +79,25 @@ layout: full
 -->
 
 ---
-transition: slide-up
-class: p-0
-layout: full
----
-
-<div class="flex flex-col h-full gap-24 px-24 text-center py-14">
-  <p class="text-4xl font-black">Work Evaluation</p>
-  <div class="grid items-start grid-cols-3 gap-8">
-    <div class="flex flex-col items-center">
-      <img
-        ref="image"
-        src="https://i.imgur.com/ou5dOxS.png"
-        class="object-cover object-center w-1/2 bg-blue-200 rounded-full aspect-square"
-      />
-      <div>
-        <p class="text-sm italic">
-          “She is highly efficient and well-organized, with excellent planning skills.”
-        </p>
-        <p class="text-xs font-normal text-gray-400">
-          Freda · TCA
-        </p>
-      </div>
-    </div>
-    <div class="flex flex-col items-center">
-      <img
-        ref="image"
-        src="https://i.imgur.com/rhHzi3H.png"
-        class="object-cover object-center w-1/2 bg-blue-200 rounded-full aspect-square"
-      />
-      <div>
-        <p class="text-sm italic">
-          “Her work capabilities make the team feel secure and dependable.”
-        </p>
-        <p class="text-xs font-normal text-gray-400">
-          Paul · JING WEI Co.
-        </p>
-      </div>
-    </div>
-    <div class="flex flex-col items-center">
-      <img
-        ref="image"
-        src="https://i.imgur.com/tVS42jr.png"
-        class="object-cover object-center w-1/2 bg-blue-200 rounded-full aspect-square"
-      />
-      <div>
-        <p class="text-sm italic">
-          “She is capable of taking on tasks independently and completing them with high quality.”
-        </p>
-        <p class="text-xs font-normal text-gray-400">
-          Andy · UARK
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--
-在過往工作經驗中，主管們對我的評價是：
-1. 我做事效率高且有條理
-2. 能夠獨立承擔並以高品質完成工作
-3. 讓團隊感到安心可靠
--->
-
----
 transition: slide-left
 class: p-0
 layout: full
 ---
 
-<div class="flex flex-col h-full gap-24 px-24 text-center py-14">
-  <p class="text-4xl font-black">About Me</p>
+<div class="flex flex-col h-full gap-24 px-24 text-center py-14 bg-[#23232E] text-white">
+  <p class="text-4xl font-black">認識更多關於我</p>
   <div class="grid items-center grid-cols-4 gap-8">
-    <div >
+    <div class="flex flex-col items-center">
       <img
         ref="image"
         src="https://i.imgur.com/gHSQpym.png"
         class="object-cover object-center shadow  rounded-[64px] aspect-square"
       />
-      <p>
-        Travel
+      <p class="text-[#D8D5FF]">
+        旅遊
       </p>
     </div>
-    <div>
-      <img
-        ref="image"
-        src="https://i.imgur.com/FmfJSWq.jpeg"
-        class="object-cover object-center shadow  rounded-[64px] aspect-square"
-      />
-      <p>
-        Game
-      </p>
-    </div>
-    <div>
+    <div class="flex flex-col items-center">
       <a href="https://cafe2-ecru.vercel.app/" target="_blank" class="">
         <img
           ref="image"
@@ -179,11 +105,21 @@ layout: full
           class="object-cover object-center shadow rounded-[64px] aspect-square"
         />
       </a>  
-      <p>
-        Cafe
+      <p class="text-[#D8D5FF]">
+        咖啡廳
       </p>
     </div>
-    <div>
+    <div class="flex flex-col items-center">
+      <img
+        ref="image"
+        src="https://i.imgur.com/FmfJSWq.jpeg"
+        class="object-cover object-center shadow  rounded-[64px] aspect-square"
+      />
+      <p class="text-[#D8D5FF]">
+        自我學習
+      </p>
+    </div>
+    <div class="flex flex-col items-center">
       <a href="https://www.figma.com/community/plugin/1420953914431407843/shape-mask" target="_blank" class="">
         <img
           ref="image"
@@ -191,7 +127,7 @@ layout: full
           class="object-cover object-center shadow rounded-[64px] aspect-square"
         />
       </a>  
-      <p>
+      <p class="text-[#D8D5FF]">
         Plugin
       </p>
     </div>
@@ -219,7 +155,7 @@ class: p-0
 layout: full
 ---
 
-<div class="relative flex flex-row items-center h-full py-24 px-14">
+<div class="relative flex flex-row items-center h-full py-24 px-14 bg-[#23232E] text-white">
   <div class="space-y-8 z-1">
     <div class="flex flex-row items-center gap-3">
       <span class="relative flex w-3 h-3">
@@ -227,13 +163,13 @@ layout: full
         <span class="relative inline-flex w-3 h-3 bg-green-500 rounded-full"></span>
       </span>
       <p class="text-sm text-gray-400">
-        In Progress
+        專案進行中
       </p>
     </div>
     <div>
-      <p class="pb-8 text-6xl font-black">Healthcare<br><br><br>Academy</p>
-      <p class="text-base tracking-wider">
-        Taiwan International Medical Education
+      <p class="pb-6 text-5xl font-black whitespace-nowrap">海外醫事人員<br><br><br>培訓平台</p>
+      <p class="text-base tracking-wider text-[#B7B3F4]">
+        財團法人醫院評鑑暨醫療品質策進會
       </p>
     </div>
   </div>
@@ -278,20 +214,21 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-row items-center justify-start h-full gap-64 px-32 py-14"> 
-  <p class="text-6xl font-black">Agenda</p>
-  <ol class="text-sm list-decimal">
-    <li>Background</li>
-    <li>Research & Define</li>
-    <li>Design System</li>
-    <li>Feature Demo</li>
+<div class="grid grid-cols-2 items-center justify-start h-full gap-64 px-32 py-14 bg-[#23232E] text-white"> 
+  <p class="text-6xl font-black z-2">議程</p>
+  <ol class="list-decimal text-md">
+    <li>專案背景</li>
+    <li>研究 & 定義</li>
+    <li>設計系統</li>
+    <li>畫面展示</li>
+    <li>使用者研究</li>
   </ol>
   <!-- Circle -->
   <div 
     v-motion
     :initial="{ x: -200 }"
     :enter="final"
-    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/5">
+    class="absolute -z-10 bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/5 z-1">
   </div>
 </div>
 
@@ -328,45 +265,45 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col justify-between h-full p-14"> 
+<div class="flex flex-col justify-between h-full p-14 bg-[#23232E] text-white"> 
   <div class="space-y-2">
-    <p class="text-xl font-black">Background</p>
-    <p class="text-sm">
-      This platform is designed to provide a comprehensive overview of Taiwan's medical and health training courses and achievements for foreign medical professionals. It also offers more complete training information and application services through the platform.
+    <p class="text-3xl font-black text-[#B7B3F4]">專案背景</p>
+    <p class="text-3xl" style="line-height: 1.2;">
+      此平台旨在為<span class="">外國醫療專業人士<span>提供台灣醫療與健康訓練課程及成果的全方位概覽，並透過平台提供更完整的訓練資訊與申請服務。
     </p>
   </div>
   <div class="grid grid-cols-4 gap-6">
     <div class="space-y-2">
-      <p class="text-xl font-black">Role</p>
-      <ul class="text-xs">
-        <li>UI/UX Designer</li>
-        <li>Product Roadmap</li>
+      <p class="text-xl font-black text-[#B7B3F4]">角色</p>
+      <ul class="text-md">
+        <li>UI/UX 設計師</li>
+        <li>產品架構設計</li>
       </ul>
     </div>
     <div class="space-y-2">
-      <p class="text-xl font-black">Team</p>
-      <ul class="text-xs">
-        <li>1 Product Designer</li>
-        <li>1 Product Manager</li>
-        <li>1 Systems Analysis</li>
-        <li>1 Front-end Developer</li>
-        <li>3 Back-end Developer</li>
+      <p class="text-xl font-black text-[#B7B3F4]">團隊成員</p>
+      <ul class="text-md">
+        <li>1 產品設計師</li>
+        <li>1 專案經理</li>
+        <li>1 系統分析師</li>
+        <li>1 前端工程師</li>
+        <li>3 後端工程師</li>
       </ul>
     </div>
     <div class="space-y-2">
-      <p class="text-xl font-black">Timeline</p>
-      <p class="text-xs">
-        More than 1 year
+      <p class="text-xl font-black text-[#B7B3F4]">專案時程</p>
+      <p class="text-md">
+        超過一年
         <br>
         <span class="text-gray-400">
-          (2023.10 - Now)
+          (2023.10 - 至今)
         </span>
       </p>
     </div>
     <div class="space-y-2">
-      <p class="text-xl font-black">Company</p>
-      <p class="text-xs">
-        Joint Commission of Taiwan
+      <p class="text-xl font-black text-[#B7B3F4]">服務對象</p>
+      <p class="text-md">
+        財團法人醫院評鑑暨醫療品質策進會
       </p>
     </div>
   </div>

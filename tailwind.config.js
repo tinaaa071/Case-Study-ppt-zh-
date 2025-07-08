@@ -6,7 +6,14 @@ module.exports = {
     "./slides/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'T1': '#23232E',
+        'T2': '#4A4A58',
+        'T3': '#B7B3F4',
+        'T4': '#D8D5FF',
+      },
+    },
   },
   plugins: [],
 }

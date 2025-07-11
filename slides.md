@@ -1783,7 +1783,7 @@ layout: full
     </div>
   </div>
   <p class="text-xl tracking-wide">
-      整體來看，<span class="text-[#D8D5FF] underline underline-offset-4 ">流程拆分與暫存功能</span>是提升報名轉化率的重要優化策略。
+      整體來看，<span class="text-[#D8D5FF] underline underline-offset-4 ">流程拆分&暫存功能</span>是提升報名轉化率的有效優化策略。
     </p>
 </div>
 

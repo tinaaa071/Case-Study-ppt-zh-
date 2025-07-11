@@ -179,7 +179,7 @@ layout: full
       </p>
     </div>
   </div>
-  <div class="z-1">
+  <div class="z-2">
     <img
     ref="image"
     src="https://i.imgur.com/2MygSlS.png"
@@ -191,7 +191,7 @@ layout: full
     v-motion
     :initial="{ x: 200 }"
     :enter="final"
-    class="absolute -z-10 bg-blue-50 dark:bg-blue-900 rounded-full w-[700px] aspect-square -top-1/12 -translate-y-1/2 -right-1/5">
+    class="absolute -z-10 bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-1/12 -translate-y-1/2 -right-1/5 z-1">
   </div>
 </div>
 
@@ -275,7 +275,7 @@ layout: full
   <div class="space-y-2">
     <p class="text-2xl font-black text-[#B7B3F4]">專案背景</p>
     <p class="text-xl tracking-wide">
-      此平台旨在為<span class="text-[#D8D5FF] underline underline-offset-4 ">外國醫療專業人士</span>提供台灣醫療與健康訓練課程及成果的全方位資訊，並透過平台提供更完整的教育訓練與申請服務。
+      此平台旨在為<span class="text-[#D8D5FF] underline underline-offset-4 ">外國醫療專業人士</span>提供台灣醫療專業培訓及成果的全方位資訊，並透過平台提供更完整的教育訓練與申請服務。
     </p>
   </div>
   <div class="grid grid-cols-4 gap-6 bg-[#4A4A58] rounded-2xl px-6 pb-3">
@@ -344,7 +344,7 @@ layout: full
   <div class="space-y-2">
     <p class="text-2xl font-black text-[#B7B3F4]">設計流程</p>
     <p class="text-xl tracking-wide">
-      在這個專案中，我專注於整體<span class="text-[#D8D5FF] underline underline-offset-4 ">網站架構的設計</span>，確保使用者能順利<span class="text-[#D8D5FF] underline underline-offset-4 ">瀏覽課程並完成申請流程</span>。我的主要責任是規劃一個使用者友善的線上課程報名系統，讓使用者能夠輕鬆報名課程以及查詢申請結果。
+      在這個專案中，我專注於整體<span class="text-[#D8D5FF] underline underline-offset-4 ">網站功能與架構的設計</span>，確保使用者能順利<span class="text-[#D8D5FF] underline underline-offset-4 ">瀏覽課程並完成報名流程</span>。我的主要責任是規劃一個使用者友善的線上課程報名系統，讓使用者能夠輕鬆報名課程以及查詢報名結果。
     </p>
   </div>
   <div class="grid grid-cols-4 gap-6 bg-[#4A4A58] rounded-2xl px-6 pb-3">
@@ -353,8 +353,8 @@ layout: full
       <ul class="text-md">
         <li>網站資訊架構（IA）</li>
         <li>課程資訊顯示</li>
-        <li>課程註冊</li>
-        <li>課程審查系統</li>
+        <li>課程報名</li>
+        <li>報名審查系統</li>
       </ul>
     </div>
     <div class="space-y-2">
@@ -371,14 +371,16 @@ layout: full
       <ul class="text-md">
         <li>元件設計</li>
         <li>網站 UI 設計</li>
+        <li>設計系統規範</li>
         <li>響應式網站相容性</li>
       </ul>
     </div>
     <div class="space-y-2">
       <p class="text-md font-black text-[#B7B3F4]">測試 & 迭代</p>
       <ul class="text-md">
-        <li>測試</li>
+        <li>易用性測試</li>
         <li>回饋收集</li>
+        <li>數據分析</li>
       </ul>
     </div>
   </div>
@@ -410,19 +412,19 @@ layout: full
     <div class="bg-[#4A4A58] rounded-2xl px-4 py-1">
       <p class="text-md font-black text-[#5F5ADF] bg-white rounded-md text-center px-2 py-1">1. 醫院宣傳力道不足</p>
       <p class="text-[#B1B1BE] text-md tracking-wide">
-        醫院擁有完善的權威部門，但在<span class="text-[#D8D5FF] underline underline-offset-4 ">推廣上較為低調</span>。
+        醫院擁有完善系統，但在<span class="text-[#D8D5FF] underline underline-offset-4 ">推廣上較為低調</span>。
       </p>
     </div>
     <div class="bg-[#4A4A58] rounded-2xl px-4 py-1">
       <p class="text-md font-black text-[#5F5ADF] bg-white rounded-md text-center px-2 py-1">2. 訓練資訊不足</p>
       <p class="text-[#B1B1BE] text-md tracking-wide">
-        訓練資訊不夠完整，導致<span class="text-[#D8D5FF] underline underline-offset-4 ">難以清楚了解整體申請流程</span>。
+        訓練資訊不夠完整，導致<span class="text-[#D8D5FF] underline underline-offset-4 ">難以清楚了解整體報名流程</span>。
       </p>
     </div>
     <div class="bg-[#4A4A58] rounded-2xl px-4 py-1">
       <p class="text-md font-black text-[#5F5ADF] bg-white rounded-md text-center px-2 py-1">3. 訓練成果難以評估</p>
       <p class="text-[#B1B1BE] text-md tracking-wide">
-        海外學員<span class="text-[#D8D5FF] underline underline-offset-4 ">難以查詢訓練成果與評估結果</span>，使訓練成效難以對外展示。
+        海外學員<span class="text-[#D8D5FF] underline underline-offset-4 ">難以查詢訓練成果與回饋結果</span>，使訓練成效難以對外展示。
       </p>
     </div>
     <div class="bg-[#4A4A58] rounded-2xl px-4 py-1">
@@ -509,17 +511,17 @@ layout: full
     </div>
     <div class="bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        5. 提供<span class="text-[#D8D5FF] underline underline-offset-4 ">個人 & 團體課程申請功能</span>
+        5. 提供<span class="text-[#D8D5FF] underline underline-offset-4 ">個人 & 團體課程報名功能</span>
       </p>
     </div>
     <div class="bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        6. 讓學員查詢<span class="text-[#D8D5FF] underline underline-offset-4 ">申請審核結果</span>
+        6. 讓學員查詢<span class="text-[#D8D5FF] underline underline-offset-4 ">報名審核結果</span>
       </p>
     </div>
     <div class="bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        7. 學員可<span class="text-[#D8D5FF] underline underline-offset-4 ">線上諮詢</span>課程提供單位
+        7. 學員可<span class="text-[#D8D5FF] underline underline-offset-4 ">線上諮詢</span>開課單位
       </p>
     </div>
   </div>
@@ -557,7 +559,7 @@ layout: full
     </div>
     <div class="bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        ✅ 顯示課程訓練的<span class="text-[#D8D5FF] underline underline-offset-4 ">評估結果</span>
+        ✅ 顯示課程訓練的<span class="text-[#D8D5FF] underline underline-offset-4 ">回饋結果</span>
       </p>
     </div>
     <div class="bg-[#4A4A58] rounded-lg px-4">
@@ -567,12 +569,12 @@ layout: full
     </div>
     <div class="bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        ✅ 建立具有動態表單的<span class="text-[#D8D5FF] underline underline-offset-4 ">雙重申請機制</span>
+        ✅ 建立具有動態表單的<span class="text-[#D8D5FF] underline underline-offset-4 ">雙重報名機制</span>
       </p>
     </div>
     <div class="bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        ✅ 開發申請流程的<span class="text-[#D8D5FF] underline underline-offset-4 ">進度追蹤功能</span>
+        ✅ 開發審核流程的<span class="text-[#D8D5FF] underline underline-offset-4 ">進度追蹤功能</span>
       </p>
     </div>
     <div class="bg-[#4A4A58] rounded-lg px-4">
@@ -674,8 +676,8 @@ layout: full
         <br>
         <span>
           <ul class="text-[#B1B1BE]">
-            <li>依照專業領域分類課程。</li>
-            <li>色彩選用穩重且具醫療感的色調。</li>
+            <li>依照<span class="text-[#D8D5FF] underline underline-offset-4 ">專業領域</span>分類課程。</li>
+            <li>色彩選用穩重且具<span class="text-[#D8D5FF] underline underline-offset-4 ">醫療專業感</span>的色調。</li>
           </ul>
         </span>
       </li>
@@ -687,6 +689,7 @@ layout: full
             <li>提供自訂搜尋與篩選功能。</li>
             <li>簡單易懂的申請流程。</li>
             <li>審查進度清楚可見。</li>
+            <li>直覺式的線上諮詢功能。</li>
           </ul>
         </span>
       </li>
@@ -751,7 +754,7 @@ layout: full
   <div class="space-y-2">
     <p class="text-2xl font-black text-[#B7B3F4]">競品分析</p>
     <p class="text-xl tracking-wide">
-      我調查了市面上具有類似課程報名功能的產品，但<span class="text-[#D8D5FF] underline underline-offset-4 ">沒有找到合適的範本</span>，這也讓我們發現，我們專案開發的功能是比較<span class="text-[#D8D5FF] underline underline-offset-4 ">創新</span>的，這會是一個比較困難的挑戰。
+      我調查了市面上具有類似課程報名功能的產品，但<span class="text-[#D8D5FF] underline underline-offset-4 ">沒有找到合適的範本</span>，這也讓我們發現，此專案開發的功能是比較<span class="text-[#D8D5FF] underline underline-offset-4 ">創新</span>的，也因此是一個比較困難的挑戰。
     </p>
   </div>
   <div class="grid grid-cols-3 gap-y-4 gap-x-32">
@@ -760,7 +763,7 @@ layout: full
         <img
           ref="image"
           src="https://i.imgur.com/7VlO2nB.png"
-          class="h-full transition-all duration-200 ease-in-out hover:scale-110"
+          class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
       <p class="text-sm font-black text-[#B1B1BE]">Hahow</p>
@@ -770,7 +773,7 @@ layout: full
         <img
           ref="image"
           src="https://i.imgur.com/IZHmUjI.png"
-          class="h-full transition-all duration-200 ease-in-out hover:scale-110"
+          class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
       <p class="text-sm font-black text-[#B1B1BE]">Udemy</p>
@@ -780,7 +783,7 @@ layout: full
         <img
           ref="image"
           src="https://i.imgur.com/BM5WXVl.png"
-          class="h-full transition-all duration-200 ease-in-out hover:scale-110"
+          class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
       <p class="text-sm font-black text-[#B1B1BE]">Coursera</p>
@@ -790,7 +793,7 @@ layout: full
         <img
           ref="image"
           src="https://i.imgur.com/G2pCFYH.png"
-          class="h-full transition-all duration-200 ease-in-out hover:scale-110"
+          class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
       <p class="text-sm font-black text-[#B1B1BE]">Future Learn</p>
@@ -800,7 +803,7 @@ layout: full
         <img
           ref="image"
           src="https://i.imgur.com/mHWGOe8.png"
-          class="h-full transition-all duration-200 ease-in-out hover:scale-110"
+          class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
       <p class="text-sm font-black text-[#B1B1BE]">Techable</p>
@@ -810,7 +813,7 @@ layout: full
         <img
           ref="image"
           src="https://i.imgur.com/IL9zMOt.png"
-          class="h-full transition-all duration-200 ease-in-out hover:scale-110"
+          class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
       <p class="text-sm font-black text-[#B1B1BE]">Klook</p>
@@ -990,9 +993,7 @@ layout: full
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">01</span><br><br>變數設定</p>
     <p class="text-sm text-justify text-[#B1B1BE]">
-      此專案使用 Tailwind 進行開發。  
-      <br><br>
-      我在檔案中設定了變數，讓工程師能在開發時直接查看相關的 class 設定。
+      於畫面中可直接點擊元件，查看相關數值及變數名稱。
     </p>
   </div>
   <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
@@ -1022,7 +1023,7 @@ layout: full
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">02</span><br><br>i18n 設定</p>
     <p class="text-sm text-justify text-[#B1B1BE]">
-      我設定了多語系變數，讓開發過程中可以在檔案中直接切換與查看。
+      我設定了多語系變數，並按照不同的元件/頁面分類。
     </p>
   </div>
   <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
@@ -1052,7 +1053,7 @@ layout: full
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">02</span><br><br>i18n 設定</p>
     <p class="text-sm text-justify text-[#B1B1BE]">
-      我設定了多語系變數，讓開發過程中可以在檔案中直接切換與查看。
+      開發過程中可以在檔案中直接點擊切換查看，增加開發效率。
     </p>
   </div>
   <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
@@ -1080,7 +1081,7 @@ layout: full
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">03</span><br><br>Figma<br><br>設計檔案</p>
     <p class="text-sm text-justify text-[#B1B1BE]">
-      我在檔案中定義了設計系統與元件，包含其使用情境與各種狀態。
+      我在檔案中定義了設計系統與元件，包含其使用情境與各種狀態展示，工程師可清楚了解應用範圍。
     </p>
   </div>
   <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
@@ -1136,7 +1137,7 @@ layout: full
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">04</span><br><br>Storybook</p>
     <p class="text-sm text-justify text-[#B1B1BE]">
-      我使用 Storybook 作為視覺指引與元件展示的平台，協助開發團隊在實作過程中參考具體的設計標準。
+      我使用 Storybook 作為視覺指引與元件展示的平台，協助開發團隊在實作過程中參考具體的設計標準，並可提升日後<span v-mark.underline.orange>維護專案</span>的效率。
     </p>
   </div>
   <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
@@ -1178,7 +1179,7 @@ layout: full
     <li>課程分類</li>
     <li>課程頁面</li>
     <li>課程報名</li>
-    <li>申請進度查詢</li>
+    <li>報名進度查詢</li>
     <li>線上諮詢</li>
   </ul>
   <!-- Circle -->
@@ -1227,7 +1228,10 @@ layout: full
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">01</span><br><br>註冊</p>
     <p class="text-sm text-justify text-[#B1B1BE]">
-      使用<span v-mark.underline.orange>動態切換</span>在不同表單間切換，滿足不同使用者的註冊需求，同時維持設計一致性並降低額外的開發成本。
+      使用<span v-mark.underline.orange>動態切換表單</span>，滿足不同使用者的註冊需求。
+      <br>
+      <br>
+      維持<span v-mark.underline.orange>設計一致性</span>並降低額外的開發成本。
     </p>
   </div>
   <div class="flex items-center justify-center h-full col-span-3 px-10 py-12 bg-[#4A4A58]">
@@ -1259,7 +1263,7 @@ layout: full
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">01</span><br><br>註冊</p>
     <p class="text-sm text-justify text-[#B1B1BE]">
-      根據不同選項動態顯示欄位。
+      根據不同選項<span v-mark.underline.orange>動態顯示</span>欄位。
     </p>
   </div>
   <div class="overflow-hidden bg-cover bg-center bg-no-repeat flex col-span-3 justify-center items-center h-full bg-[#4A4A58] bg-[url('https://i.imgur.com/kxCbId4.png')]">
@@ -1359,7 +1363,7 @@ layout: full
       <span class="text-xs font-black text-white bg-[#5F5ADF] px-3 py-2 rounded-full w-fit">⭐️ 重點設計</span>
     </div>
     <p class="text-sm text-justify text-[#B1B1BE]">
-      使用者可即時切換資訊，方便快速搜尋所需內容。
+      使用者可即時切換資訊，方便快速瀏覽所需內容。
     </p>
   </div>
   <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
@@ -1392,7 +1396,7 @@ layout: full
       <span class="text-xs font-black text-white bg-[#5F5ADF] px-3 py-2 rounded-full w-fit">⭐️ 重點設計</span>
     </div>
     <p class="text-sm text-justify text-[#B1B1BE]">
-      以<span v-mark.underline.orange>進度條</span>顯示申請階段，將步驟拆分，避免填寫流程過長。
+      以<span v-mark.underline.orange>進度條</span>顯示申請階段，將步驟拆分，避免填寫流程過長，加強使用者體驗。
     </p>
   </div>
   <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
@@ -1423,7 +1427,7 @@ layout: full
       <span class="text-xs font-black text-white bg-[#5F5ADF] px-3 py-2 rounded-full w-fit">⭐️ 重點設計</span>
     </div>
     <p class="text-sm text-justify text-[#B1B1BE]">
-      根據選擇課程的<span v-mark.underline.orange>數量</span>，動態調整欄位為團體申請模式。
+      根據所選擇課程的<span v-mark.underline.orange>人數</span>，動態調整表單為團體報名模式。
     </p>
   </div>
   <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
@@ -1451,9 +1455,12 @@ layout: full
 <div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">05</span><br><br>申請<br><br>審核進度</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">05</span><br><br>課程報名<br><br>審核進度</p>
     <p class="text-sm text-justify text-[#B1B1BE]">
-      學生可以切換不同狀態，以查看所申請課程的審核進度。點擊卡片後，將顯示詳細資訊。
+      學生可以切換不同狀態，以查看所報名課程的審核進度。
+      <br>
+      <br>
+      點擊卡片後，將顯示詳細資訊。
     </p>
   </div>
   <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
@@ -1488,7 +1495,7 @@ layout: full
       <span class="text-xs font-black text-white bg-[#5F5ADF] px-3 py-2 rounded-full w-fit">⭐️ 重點設計</span>
     </div>
     <p class="text-sm text-justify text-[#B1B1BE]">
-      我們提供線上諮詢系統，讓學員能即時聯繫課程主辦單位，解決相關問題。
+      我們提供線上諮詢系統，讓學員能即時聯繫開課單位，解決相關問題。
     </p>
   </div>
   <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
@@ -1551,7 +1558,9 @@ layout: full
   <div class="space-y-2">
     <p class="text-2xl font-black text-[#B7B3F4]">漏斗分析（會員註冊）</p>
     <p class="text-xl tracking-wide">
-      共有124位使用者造訪註冊頁面，其中94位成功完成註冊，轉換率達76%。在<span class="text-[#D8D5FF] underline underline-offset-4 ">「填寫表單欄位」階段流失最多</span>，有10位使用者中途退出，顯示該階段可能因<span class="text-[#D8D5FF] underline underline-offset-4 ">表單複雜度或使用者猶豫產生阻礙</span>。未來可透過優化表單設計與欄位清晰度，提升完成率。
+      共有124位使用者造訪註冊頁面，其中94位成功完成註冊，轉換率達76%。
+      <br>
+      在<span class="text-[#D8D5FF] underline underline-offset-4 ">「填寫表單欄位」階段流失最多</span>，有10位使用者中途退出，顯示該階段可能因<span class="text-[#D8D5FF] underline underline-offset-4 ">表單複雜度或使用者猶豫產生阻礙</span>。未來可透過優化表單設計與欄位清晰度，提升完成率。
     </p>
   </div>
   <div class="mx-auto mt-2 overflow-hidden border border-gray-300 w-2xl rounded-xl">
@@ -1591,12 +1600,12 @@ layout: full
           <td class="px-4 py-2">5</td>
           <td class="px-4 py-2">88.7%</td>
         </tr>
-        <tr class="text-center bg-gray-50">
+        <tr class="text-center bg-red-100">
           <td class="px-4 py-2">填寫表單欄位</td>
           <td class="px-4 py-2"><code>complete_form_fields</code></td>
           <td class="px-4 py-2">110</td>
           <td class="px-4 py-2">100</td>
-          <td class="px-4 py-2">10</td>
+          <td class="px-4 py-2 text-red-500">10</td>
           <td class="px-4 py-2">80.6%</td>
         </tr>
         <tr class="text-center">
@@ -1650,11 +1659,11 @@ layout: full
 
 <div class="flex flex-col h-full px-14 py-6 bg-[#23232E] text-white gap-6"> 
   <div class="space-y-2">
-    <p class="text-2xl font-black text-[#B7B3F4]">漏斗分析（會員註冊）</p>
+    <p class="text-2xl font-black text-[#B7B3F4]">漏斗分析（課程報名）</p>
     <p class="text-xl tracking-wide">
-      這份漏斗分析比較了「優化前」與「優化後」的課程註冊流程使用者行為。 
+      這份漏斗分析比較了「優化前」與「優化後」的課程報名流程使用者行為。 
       <br>
-      透過將註冊流程<span class="text-[#D8D5FF] underline underline-offset-4 ">拆分為多個步驟</span>，使用者在填寫表單階段的流失率明顯下降，最終註冊完成率由44.4%提升至65.4%。
+      透過將註冊流程<span class="text-[#D8D5FF] underline underline-offset-4 ">拆分為多個步驟</span>，使用者在填寫表單階段的流失率明顯下降，最終註冊完成率由48.6%提升至75%。
     </p>
   </div>
    <ToggleTable />
@@ -1685,76 +1694,93 @@ layout: full
   <div class="space-y-2">
     <p class="text-2xl font-black text-[#B7B3F4]">漏斗分析（課程報名）</p>
     <p class="text-xl tracking-wide">
-      分組分析顯示，使用暫存功能的使用者在各關鍵步驟均有較高留存率，顯示<span class="text-[#D8D5FF] underline underline-offset-4 ">暫存功能顯著提升使用者完成報名的意願與體驗</span>。
+      分組分析顯示，使用暫存功能最終的填答完成率為90.2%，高於未使用暫存的完成率，顯示<span class="text-[#D8D5FF] underline underline-offset-4 ">暫存功能顯著提升使用者完成報名的意願與體驗</span>。
     </p>
   </div>
-  <div class="w-full mx-auto mt-4 overflow-hidden border border-gray-300 rounded-xl">
-    <table class="w-full text-xs text-gray-900 bg-white">
-      <thead class="text-center bg-gray-100">
-        <tr>
-          <th class="px-4 py-2 text-center">項目</th>
-          <th class="px-4 py-2 text-center">事件名稱</th>
-          <th class="px-4 py-2 text-center bg-green-100">暫存<br>使用者數</th>
-          <th class="px-4 py-2 text-center bg-green-100">暫存<br>完成數</th>
-          <th class="px-4 py-2 text-center bg-green-100">暫存<br>流失數</th>
-          <th class="px-4 py-2 text-center bg-green-100">暫存<br>留存率</th>
-          <th class="px-4 py-2 text-center bg-red-100">未暫存<br>使用者數</th>
-          <th class="px-4 py-2 text-center bg-red-100">未暫存<br>完成數</th>
-          <th class="px-4 py-2 text-center bg-red-100">未暫存<br>流失數</th>
-          <th class="px-4 py-2 text-center bg-red-100">未暫存<br>留存率</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="text-center">
-          <td class="px-4 py-2">填寫個人資料表</td>
-          <td class="px-4 py-2"><code>fill_personal_info</code></td>
-          <td class="px-4 py-2 bg-green-50">20</td>
-          <td class="px-4 py-2 bg-green-50">15</td>
-          <td class="px-4 py-2 bg-green-50">5</td>
-          <td class="px-4 py-2 bg-green-50">75.0%</td>
-          <td class="px-4 py-2 bg-red-50">38</td>
-          <td class="px-4 py-2 bg-red-50">35</td>
-          <td class="px-4 py-2 bg-red-50">3</td>
-          <td class="px-4 py-2 bg-red-50">92.1%</td>
-        </tr>
-        <tr class="text-center">
-          <td class="px-4 py-2">填寫上傳文件表</td>
-          <td class="px-4 py-2"><code>fill_upload_documents</code></td>
-          <td class="px-4 py-2 bg-green-50">18</td>
-          <td class="px-4 py-2 bg-green-50">17</td>
-          <td class="px-4 py-2 bg-green-50">1</td>
-          <td class="px-4 py-2 bg-green-50">94.4%</td>
-          <td class="px-4 py-2 bg-red-50">35</td>
-          <td class="px-4 py-2 bg-red-50">31</td>
-          <td class="px-4 py-2 bg-red-50">4</td>
-          <td class="px-4 py-2 bg-red-50">88.6%</td>
-        </tr>
-        <tr class="text-center">
-          <td class="px-4 py-2">送出報名表單</td>
-          <td class="px-4 py-2"><code>submit_registration</code></td>
-          <td class="px-4 py-2 bg-green-50">17</td>
-          <td class="px-4 py-2 bg-green-50">15</td>
-          <td class="px-4 py-2 bg-green-50">2</td>
-          <td class="px-4 py-2 bg-green-50">88.2%</td>
-          <td class="px-4 py-2 bg-red-50">31</td>
-          <td class="px-4 py-2 bg-red-50">29</td>
-          <td class="px-4 py-2 bg-red-50">2</td>
-          <td class="px-4 py-2 bg-red-50">93.5%</td>
-        </tr>
-        <tr class="text-center">
-          <td class="px-4 py-2">報名成功頁</td>
-          <td class="px-4 py-2"><code>registration_success</code></td>
-          <td class="px-4 py-2 bg-green-50">15</td>
-          <td class="px-4 py-2 bg-green-50">15</td>
-          <td class="px-4 py-2 bg-green-50">0</td>
-          <td class="px-4 py-2 bg-green-50">100.0%</td>
-          <td class="px-4 py-2 bg-red-50">29</td>
-          <td class="px-4 py-2 bg-red-50">27</td>
-          <td class="px-4 py-2 bg-red-50">2</td>
-          <td class="px-4 py-2 bg-red-50">93.1%</td>
-        </tr>
-      </tbody>
-    </table>
+  <div>
+    <div class="flex gap-6">
+      <div class="text-sm">
+        <span class="inline-flex w-3 h-3 mr-1 bg-green-200 rounded-full"></span>
+        有暫存
+      </div>
+      <div class="text-sm">
+        <span class="inline-flex w-3 h-3 mr-1 bg-red-200 rounded-full"></span>
+        無暫存
+      </div>
+    </div>
+    <div class="w-full mx-auto mt-4 overflow-hidden border border-gray-300 rounded-xl">
+      <table class="w-full text-xs text-gray-900 bg-white">
+        <thead class="text-center bg-gray-100">
+          <tr>
+            <th class="px-4 py-2 text-center">項目</th>
+            <th class="px-4 py-2 text-center bg-green-200">使用者數</th>
+            <th class="px-4 py-2 text-center bg-green-200">完成數</th>
+            <th class="px-4 py-2 text-center bg-green-200">該步驟流失數</th>
+            <th class="px-4 py-2 text-center bg-green-200">回訪數</th>
+            <th class="px-4 py-2 text-center bg-green-200">流失率(%)</th>
+            <th class="px-4 py-2 text-center bg-red-200">使用者數</th>
+            <th class="px-4 py-2 text-center bg-red-200">完成數</th>
+            <th class="px-4 py-2 text-center bg-red-200">該步驟流失數</th>
+            <th class="px-4 py-2 text-center bg-red-200">回訪數</th>
+            <th class="px-4 py-2 text-center bg-red-200">流失率(%)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="text-center">
+            <td class="px-4 py-2">開始填答</td>
+            <td class="px-4 py-2 bg-green-50">72</td>
+            <td class="px-4 py-2 bg-green-50">72</td>
+            <td class="px-4 py-2 bg-green-50">-</td>
+            <td class="px-4 py-2 bg-green-50">-</td>
+            <td class="px-4 py-2 bg-green-50">-</td>
+            <td class="px-4 py-2 bg-red-50">72</td>
+            <td class="px-4 py-2 bg-red-50">72</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+          </tr>
+          <tr class="text-center">
+            <td class="px-4 py-2">填寫個人資料表</td>
+            <td class="px-4 py-2 bg-green-50">55</td>
+            <td class="px-4 py-2 bg-green-50">38</td>
+            <td class="px-4 py-2 bg-green-50">17</td>
+            <td class="px-4 py-2 bg-green-50">10</td>
+            <td class="px-4 py-2 bg-green-50">23.6%</td>
+            <td class="px-4 py-2 bg-red-50">65</td>
+            <td class="px-4 py-2 bg-red-50">58</td>
+            <td class="px-4 py-2 bg-red-50">7</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+            <td class="px-4 py-2 bg-red-50">9.7%</td>
+          </tr>
+          <tr class="text-center">
+            <td class="px-4 py-2">填寫上傳文件表</td>
+            <td class="px-4 py-2 bg-green-50">48</td>
+            <td class="px-4 py-2 bg-green-50">41</td>
+            <td class="px-4 py-2 bg-green-50">7</td>
+            <td class="px-4 py-2 bg-green-50">17</td>
+            <td class="px-4 py-2 bg-green-50">12.7%</td>
+            <td class="px-4 py-2 bg-red-50">55</td>
+            <td class="px-4 py-2 bg-red-50">45</td>
+            <td class="px-4 py-2 bg-red-50">10</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+            <td class="px-4 py-2 bg-red-50">15.4%</td>
+          </tr>
+          <tr class="text-center">
+            <td class="px-4 py-2">最終完成報名</td>
+            <td class="px-4 py-2 bg-green-50">65</td>
+            <td class="px-4 py-2 bg-green-50"><span v-mark.circle.orange>65<br>(90.2%)</span></td>
+            <td class="px-4 py-2 bg-green-50">-</td>
+            <td class="px-4 py-2 bg-green-50">-</td>
+            <td class="px-4 py-2 bg-green-50">-</td>
+            <td class="px-4 py-2 bg-red-50">45</td>
+            <td class="px-4 py-2 bg-red-50">45<br>(62.5%)</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+            <td class="px-4 py-2 bg-red-50">-</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
   <p class="text-xl tracking-wide">
       整體來看，<span class="text-[#D8D5FF] underline underline-offset-4 ">流程拆分與暫存功能</span>是提升報名轉化率的重要優化策略。

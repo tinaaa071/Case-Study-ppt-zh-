@@ -12,8 +12,9 @@
         <th class="px-4 py-2 text-center">事件名稱</th>
         <th class="px-4 py-2 text-center">使用者數</th>
         <th class="px-4 py-2 text-center">完成數</th>
-        <th class="px-4 py-2 text-center">流失數</th>
-        <th class="px-4 py-2 text-center">留存率</th>
+        <th class="px-4 py-2 text-center">該步驟流失數</th>
+        <th class="px-4 py-2 text-center">跨步驟流失數</th>
+        <th class="px-4 py-2 text-center">整體留存率</th>
         </tr>
     </thead>
     <tbody>
@@ -23,39 +24,53 @@
         <td class="px-4 py-2">72</td>
         <td class="px-4 py-2">72</td>
         <td class="px-4 py-2">0</td>
+        <td class="px-4 py-2">-</td>
         <td class="px-4 py-2">100%</td>
         </tr>
         <tr class="text-center bg-gray-50">
         <td class="px-4 py-2">點擊報名按鈕</td>
         <td class="px-4 py-2"><code>click_register_button</code></td>
-        <td class="px-4 py-2">64</td>
-        <td class="px-4 py-2">64</td>
-        <td class="px-4 py-2">8</td>
-        <td class="px-4 py-2">88.9%</td>
+        <td class="px-4 py-2">69</td>
+        <td class="px-4 py-2">69</td>
+        <td class="px-4 py-2">0</td>
+        <td class="px-4 py-2">3</td>
+        <td class="px-4 py-2">95.8%</td>
         </tr>
-        <tr class="text-center bg-red-50">
+        <tr class="text-center ">
+        <td class="px-4 py-2">確認報名課程</td>
+        <td class="px-4 py-2"><code>click_register_button</code></td>
+        <td class="px-4 py-2">69</td>
+        <td class="px-4 py-2">69</td>
+        <td class="px-4 py-2">0</td>
+        <td class="px-4 py-2">0</td>
+        <td class="px-4 py-2">95.8%</td>
+        </tr>
+        <tr class="text-center bg-red-100">
         <td class="px-4 py-2">填寫報名表單</td>
         <td class="px-4 py-2"><code>fill_registration_form</code></td>
-        <td class="px-4 py-2">58</td>
-        <td class="px-4 py-2 text-red-500">38</td>
-        <td class="px-4 py-2 text-red-500">20</td>
-        <td class="px-4 py-2 text-red-500">52.8%</td>
+        <td class="px-4 py-2">65</td>
+        <td class="px-4 py-2 text-red-500">41</td>
+        <td class="px-4 py-2 text-red-500">24</td>
+        <td class="px-4 py-2 text-red-500">4</td>
+        <td class="px-4 py-2 text-red-500">56.9%</td>
         </tr>
-        <tr class="text-center bg-gray-50">
+        <tr class="text-center ">
         <td class="px-4 py-2">送出報名表單</td>
         <td class="px-4 py-2"><code>submit_registration</code></td>
-        <td class="px-4 py-2">38</td>
-        <td class="px-4 py-2">32</td>
+        <td class="px-4 py-2">41</td>
+        <td class="px-4 py-2">35</td>
         <td class="px-4 py-2">6</td>
-        <td class="px-4 py-2">44.4%</td>
+        <td class="px-4 py-2">24</td>
+        <td class="px-4 py-2">48.6%</td>
         </tr>
-        <tr class="text-center">
+        <tr class="text-center bg-gray-50">
         <td class="px-4 py-2">報名成功頁</td>
         <td class="px-4 py-2"><code>registration_success</code></td>
-        <td class="px-4 py-2">32</td>
-        <td class="px-4 py-2">32</td>
+        <td class="px-4 py-2">35</td>
+        <td class="px-4 py-2">35</td>
         <td class="px-4 py-2">0</td>
-        <td class="px-4 py-2">44.4%</td>
+        <td class="px-4 py-2">6</td>
+        <td class="px-4 py-2">48.6%</td>
         </tr>
     </tbody>
     </table>
@@ -68,8 +83,9 @@
           <th class="px-4 py-2 text-center">事件名稱</th>
           <th class="px-4 py-2 text-center">使用者數</th>
           <th class="px-4 py-2 text-center">完成數</th>
-          <th class="px-4 py-2 text-center">流失數</th>
-          <th class="px-4 py-2 text-center">留存率</th>
+          <th class="px-4 py-2 text-center">該步驟流失數</th>
+          <th class="px-4 py-2 text-center">跨步驟流失數</th>
+          <th class="px-4 py-2 text-center">整體留存率</th>
         </tr>
       </thead>
       <tbody>
@@ -79,55 +95,62 @@
           <td class="px-4 py-2">72</td>
           <td class="px-4 py-2">72</td>
           <td class="px-4 py-2">0</td>
+          <td class="px-4 py-2">-</td>
           <td class="px-4 py-2">100%</td>
         </tr>
         <tr class="text-center">
           <td class="px-4 py-2">點擊報名按鈕</td>
           <td class="px-4 py-2"><code>click_register_button</code></td>
-          <td class="px-4 py-2">64</td>
-          <td class="px-4 py-2">64</td>
-          <td class="px-4 py-2">8</td>
-          <td class="px-4 py-2">88.9%</td>
+          <td class="px-4 py-2">69</td>
+          <td class="px-4 py-2">69</td>
+          <td class="px-4 py-2">0</td>
+          <td class="px-4 py-2">3</td>
+          <td class="px-4 py-2">95.8%</td>
         </tr>
         <tr class="text-center">
           <td class="px-4 py-2">確認報名課程</td>
           <td class="px-4 py-2"><code>confirm_registration</code></td>
-          <td class="px-4 py-2">62</td>
-          <td class="px-4 py-2">62</td>
-          <td class="px-4 py-2">2</td>
-          <td class="px-4 py-2">86.1%</td>
+          <td class="px-4 py-2">69</td>
+          <td class="px-4 py-2">69</td>
+          <td class="px-4 py-2">0</td>
+          <td class="px-4 py-2">0</td>
+          <td class="px-4 py-2">95.8%</td>
         </tr>
         <tr class="text-center bg-green-100">
           <td class="px-4 py-2">填寫個人資料表</td>
           <td class="px-4 py-2"><code>fill_personal_info</code></td>
-          <td class="px-4 py-2">58</td>
-          <td class="px-4 py-2">50</td>
+          <td class="px-4 py-2">65</td>
+          <td class="px-4 py-2">57</td>
           <td class="px-4 py-2">8</td>
-          <td class="px-4 py-2">69.4%</td>
+          <td class="px-4 py-2">4</td>
+          <td class="px-4 py-2">79.2%</td>
         </tr>
         <tr class="text-center bg-green-100">
           <td class="px-4 py-2">填寫上傳文件表</td>
           <td class="px-4 py-2"><code>fill_upload_documents</code></td>
-          <td class="px-4 py-2">50</td>
-          <td class="px-4 py-2">48</td>
+          <td class="px-4 py-2">57</td>
+          <td class="px-4 py-2">55</td>
           <td class="px-4 py-2">2</td>
-          <td class="px-4 py-2">66.7%</td>
+          <td class="px-4 py-2">0</td>
+          <td class="px-4 py-2">76.4%</td>
         </tr>
         <tr class="text-center bg-green-100">
           <td class="px-4 py-2">送出報名表單</td>
           <td class="px-4 py-2"><code>submit_registration</code></td>
-          <td class="px-4 py-2">48</td>
-          <td class="px-4 py-2">47</td>
+          <td class="px-4 py-2">55</td>
+          <td class="px-4 py-2">54</td>
           <td class="px-4 py-2">1</td>
-          <td class="px-4 py-2">65.4%</td>
+          <td class="px-4 py-2">0</td>
+          <td class="px-4 py-2">75%</td>
         </tr>
         <tr class="text-center">
           <td class="px-4 py-2">報名成功頁</td>
           <td class="px-4 py-2"><code>registration_success</code></td>
-          <td class="px-4 py-2">47</td>
-          <td class="px-4 py-2">47</td>
+          <td class="px-4 py-2">55</td>
+          <td class="px-4 py-2">54</td>
           <td class="px-4 py-2">0</td>
-          <td class="px-4 py-2"><span v-mark.circle.orange>65.4%</span></td>
+          <td class="px-4 py-2">0</td>
+          <td class="px-4 py-2"><span v-mark.circle.orange>75%</span></td>
         </tr>
       </tbody>
     </table>

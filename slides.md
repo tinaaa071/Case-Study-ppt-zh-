@@ -37,10 +37,10 @@ mdc: true
     <p class="text-lg font-black tracking-wide">
       我是一位具有 3 年經驗的 UI/UX 設計師，擁有企業管理碩士背景。
     </p>
-    <ul class="text-md">
-      <li>熱情驅動</li>
+    <ul class="tracking-wide text-md">
+      <li>熱情導向</li>
       <li>充滿好奇心</li>
-      <li>學習速度快</li>
+      <li>快速學習新知</li>
     </ul>
   </div>
 </div>
@@ -104,6 +104,16 @@ layout: full
       </p>
     </div>
     <div class="flex flex-col items-center">
+      <img
+        ref="image"
+        src="https://img.notionusercontent.com/s3/prod-files-secure%2F6e9d863e-7448-4199-b334-811afe339f3b%2F33e08b92-d96a-44a2-898f-4bc4a6bd3d91%2Fimage.png/size/w=2000?exp=1752198725&sig=Jg2XF6HdScXVWV-qFBe1TRWI35HyPK9OV83wu_zFcYU&id=22c74826-7cda-80ef-82d1-c303d7833c5b&table=block&userId=9c6f028c-5864-479b-ad08-69b0e1456b3a"
+        class="object-cover object-center shadow  rounded-[64px] aspect-square"
+      />
+      <p class="text-[#B1B1BE]">
+        自我學習
+      </p>
+    </div>
+    <div class="flex flex-col items-center">
       <a href="https://cafe2-ecru.vercel.app/" target="_blank" class=" shadow rounded-[64px] overflow-hidden">
         <img
           ref="image"
@@ -113,16 +123,6 @@ layout: full
       </a>  
       <p class="text-[#B1B1BE]">
         咖啡廳
-      </p>
-    </div>
-    <div class="flex flex-col items-center">
-      <img
-        ref="image"
-        src="https://img.notionusercontent.com/s3/prod-files-secure%2F6e9d863e-7448-4199-b334-811afe339f3b%2F33e08b92-d96a-44a2-898f-4bc4a6bd3d91%2Fimage.png/size/w=2000?exp=1752198725&sig=Jg2XF6HdScXVWV-qFBe1TRWI35HyPK9OV83wu_zFcYU&id=22c74826-7cda-80ef-82d1-c303d7833c5b&table=block&userId=9c6f028c-5864-479b-ad08-69b0e1456b3a"
-        class="object-cover object-center shadow  rounded-[64px] aspect-square"
-      />
-      <p class="text-[#B1B1BE]">
-        自我學習
       </p>
     </div>
     <div class="flex flex-col items-center">

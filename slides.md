@@ -223,11 +223,11 @@ layout: full
 <div class="grid grid-cols-2 items-center justify-start h-full gap-64 px-32 py-14 bg-[#23232E] text-white"> 
   <p class="text-6xl font-black z-2">議程</p>
   <ol class="list-decimal text-md">
-    <li>專案背景</li>
-    <li>研究 & 定義</li>
-    <li>設計系統</li>
-    <li>畫面展示</li>
-    <li>數據分析</li>
+    <li><a href="6" class="transition-colors duration-200">專案背景</a></li>
+    <li><a href="12" class="transition-colors duration-200">研究 & 定義</a></li>
+    <li><a href="17" class="transition-colors duration-200">設計系統</a></li>
+    <li><a href="25" class="transition-colors duration-200">畫面展示</a></li>
+    <li><a href="35" class="transition-colors duration-200">數據分析</a></li>
   </ol>
   <!-- Circle -->
   <div 
@@ -237,6 +237,15 @@ layout: full
     class="absolute -z-10 bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/4 z-1">
   </div>
 </div>
+
+<style>
+a, a:hover {
+  border-style: none;
+}
+a:hover {
+  color: #B7B3F4;
+}
+</style>
 
 <script setup lang="ts">
 const final = {

@@ -106,7 +106,7 @@ layout: full
     <div class="flex flex-col items-center">
       <img
         ref="image"
-        src="https://img.notionusercontent.com/s3/prod-files-secure%2F6e9d863e-7448-4199-b334-811afe339f3b%2F33e08b92-d96a-44a2-898f-4bc4a6bd3d91%2Fimage.png/size/w=2000?exp=1752198725&sig=Jg2XF6HdScXVWV-qFBe1TRWI35HyPK9OV83wu_zFcYU&id=22c74826-7cda-80ef-82d1-c303d7833c5b&table=block&userId=9c6f028c-5864-479b-ad08-69b0e1456b3a"
+        src="https://i.meee.com.tw/SYdgcm7.png"
         class="object-cover object-center shadow  rounded-[64px] aspect-square"
       />
       <p class="text-[#B1B1BE]">
@@ -1567,7 +1567,7 @@ layout: full
   <div class="space-y-2">
     <p class="text-2xl font-black text-[#B7B3F4]">漏斗分析（會員註冊）</p>
     <p class="text-xl tracking-wide">
-      共有124位使用者造訪註冊頁面，其中94位成功完成註冊，轉換率達76%。
+      共有124位使用者造訪註冊頁面，其中94位成功完成註冊，留存率達76%。
       <br>
       在<span class="text-[#D8D5FF] underline underline-offset-4 ">「填寫表單欄位」階段流失最多</span>，有10位使用者中途退出，顯示該階段可能因<span class="text-[#D8D5FF] underline underline-offset-4 ">表單複雜度或使用者猶豫產生阻礙</span>。未來可透過優化表單設計與欄位清晰度，提升完成率。
     </p>

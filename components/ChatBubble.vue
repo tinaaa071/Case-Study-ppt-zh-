@@ -27,9 +27,12 @@
   
   <style scoped>  
   .chat-bubble::before {
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 16px solid #EFF6FF;
+    content: "";
+    position: absolute;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 12px solid #4A4A58;
+    bottom: -8px;
   }
   .marquee-content {
     animation: marquee-slide 10s linear infinite;

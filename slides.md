@@ -30,24 +30,31 @@ mdc: true
     <img
     ref="image"
     src="https://i.imgur.com/XiOOKB4.jpeg"
-    class="object-cover object-top shadow-lg  rounded-[64px] aspect-square"
+    class="object-cover object-top shadow-lg  rounded-[32px] aspect-[3/4]"
   />
   </div>
   <div class="w-full">
-    <p class="text-lg font-black tracking-wide">
-      我是一位具有 3 年經驗的 UI/UX 設計師，擁有企業管理碩士背景。
+    <p class="font-black text-md">
+      很高興認識您，我是
     </p>
-    <ul class="tracking-wide text-md">
-      <li>熱情導向</li>
-      <li>充滿好奇心</li>
-      <li>快速學習新知</li>
-    </ul>
+    <p class="pb-6 text-6xl font-black">
+      Tina Chen
+    </p>
+    <p class="pb-4 tracking-wide text-md">
+      一位具有 3 年經驗的 UI/UX 設計師，整合 UX 研究和 UI 設計的多元化專業知識，並結合軟體開發和企業管理來創造具有影響力的產品設計。
+    </p>
+    <div class="flex gap-3 text-sm tracking-wide ">
+      <p class="bg-[#4A4A58] py-2 px-4 rounded-full text-[#D8D5FF]"># 熱情導向</p>
+      <p class="bg-[#4A4A58] py-2 px-4 rounded-full text-[#D8D5FF]"># 充滿好奇心</p>
+      <p class="bg-[#4A4A58] py-2 px-4 rounded-full text-[#D8D5FF]"># 快速學習新知</p>
+    </div>
   </div>
 </div>
 
 <style>
   .slidev-layout p {
     line-height: unset;
+    margin: 0;
 }
 </style>
 

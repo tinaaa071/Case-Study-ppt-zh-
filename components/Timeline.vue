@@ -12,14 +12,14 @@
   
         <!-- 圓點 -->
         <span class="relative flex w-3 h-3">
-          <span class="absolute inline-flex w-full h-full rounded-full opacity-75 bg-[#D8D5FF] animate-ping"></span>
-          <span class="relative inline-flex w-3 h-3 rounded-full bg-[#B7B3F4]"></span>
+          <span class="absolute inline-flex w-full h-full rounded-full opacity-75 bg-sky-400 dark:bg-[#D8D5FF] animate-ping"></span>
+          <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500 dark:bg-[#B7B3F4]"></span>
         </span>
   
         <!-- 下方的事件內容 -->
         <div class="flex flex-col items-center w-20 whitespace-nowrap">
           <p class="text-sm font-black">{{ event.work }}</p>
-          <p class="text-xs font-semibold text-[#B7B3F4] dark:text-blue-300">{{ event.content }}</p>
+          <p class="text-xs font-semibold dark:text-[#B7B3F4] text-blue-500">{{ event.content }}</p>
         </div>
   
         <!-- 水平線 -->

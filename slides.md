@@ -22,7 +22,7 @@ transition: slide-up
 mdc: true
 ---
 
-<div class="flex flex-row items-center justify-center h-full gap-24 px-32 text-white py-14 bg-[#23232E]">
+<div class="flex flex-row items-center justify-center h-full gap-24 px-32 dark:text-white py-14 dark:bg-[#23232E]">
   <div class="relative w-1/2">
     <div class="absolute z-10 -left-4 -top-8 w-52">
       <ChatBubble />
@@ -44,9 +44,9 @@ mdc: true
       一位具有 3 年經驗的 UI/UX 設計師，整合 UX 研究和 UI 設計的多元化專業知識，並結合軟體開發和企業管理來創造具有影響力的產品設計。
     </p>
     <div class="flex gap-3 text-sm tracking-wide ">
-      <p class="bg-[#4A4A58] py-2 px-4 rounded-full text-[#D8D5FF]"># 熱情導向</p>
-      <p class="bg-[#4A4A58] py-2 px-4 rounded-full text-[#D8D5FF]"># 充滿好奇心</p>
-      <p class="bg-[#4A4A58] py-2 px-4 rounded-full text-[#D8D5FF]"># 快速學習新知</p>
+      <p class="bg-blue-50 text-blue-400 dark:bg-[#4A4A58] py-2 px-4 rounded-full dark:text-[#D8D5FF]"># 熱情導向</p>
+      <p class="bg-blue-50 text-blue-400 dark:bg-[#4A4A58] py-2 px-4 rounded-full dark:text-[#D8D5FF]"># 充滿好奇心</p>
+      <p class="bg-blue-50 text-blue-400 dark:bg-[#4A4A58] py-2 px-4 rounded-full dark:text-[#D8D5FF]"># 快速學習新知</p>
     </div>
   </div>
 </div>
@@ -74,9 +74,9 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col h-full gap-20 text-center bg-[#23232E] text-white py-14">
+<div class="flex flex-col h-full gap-20 text-center dark:bg-[#23232E] dark:text-white py-14">
   <p class="text-4xl font-black">工作經驗</p>
-  <div class="flex items-center w-full px-6 py-4 bg-[#4A4A58]">
+  <div class="flex items-center w-full px-6 py-4 bg-blue-50/70 dark:bg-[#4A4A58]">
     <Timeline />
   </div>
 </div>
@@ -97,7 +97,7 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col h-full gap-24 px-24 text-center py-14 bg-[#23232E] text-white">
+<div class="flex flex-col h-full gap-24 px-24 text-center py-14 dark:bg-[#23232E] dark:text-white">
   <p class="text-4xl font-black">認識更多關於我</p>
   <div class="grid items-center grid-cols-4 gap-8 text-sm">
     <div class="flex flex-col items-center">
@@ -106,7 +106,7 @@ layout: full
         src="https://i.imgur.com/gHSQpym.png"
         class="object-cover object-center shadow  rounded-[64px] aspect-square"
       />
-      <p class="text-[#B1B1BE]">
+      <p class="dark:text-[#B1B1BE]">
         旅遊
       </p>
     </div>
@@ -116,7 +116,7 @@ layout: full
         src="https://i.meee.com.tw/SYdgcm7.png"
         class="object-cover object-center shadow  rounded-[64px] aspect-square"
       />
-      <p class="text-[#B1B1BE]">
+      <p class="dark:text-[#B1B1BE]">
         自我學習
       </p>
     </div>
@@ -128,7 +128,7 @@ layout: full
           class="object-cover object-center transition-all duration-200 aspect-square hover:scale-110"
         />
       </a>  
-      <p class="text-[#B1B1BE]">
+      <p class="dark:text-[#B1B1BE]">
         咖啡廳
       </p>
     </div>
@@ -140,7 +140,7 @@ layout: full
           class="object-cover object-center transition-all duration-200 aspect-square hover:scale-110"
         />
       </a>  
-      <p class="text-[#B1B1BE]">
+      <p class="dark:text-[#B1B1BE]">
         Plugin
       </p>
     </div>
@@ -168,7 +168,7 @@ class: p-0
 layout: full
 ---
 
-<div class="relative flex flex-row items-center h-full py-24 px-14 bg-[#23232E] text-white">
+<div class="relative flex flex-row items-center h-full py-24 px-14 dark:bg-[#23232E] dark:text-white">
   <div class="space-y-8 z-1">
     <div class="flex flex-row items-center gap-3">
       <span class="relative flex w-3 h-3">
@@ -181,7 +181,7 @@ layout: full
     </div>
     <div>
       <p class="pb-6 text-5xl font-black whitespace-nowrap">海外醫事人員<br><br><br>培訓平台</p>
-      <p class="text-base tracking-wider text-[#B7B3F4]">
+      <p class="text-base tracking-wider text-gray-400 dark:text-[#B7B3F4]">
         財團法人醫院評鑑暨醫療品質策進會
       </p>
     </div>
@@ -198,7 +198,7 @@ layout: full
     v-motion
     :initial="{ x: 200 }"
     :enter="final"
-    class="absolute -z-10 bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-1/12 -translate-y-1/2 -right-1/5 z-1">
+    class="absolute -z-10 bg-blue-50 dark:bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-1/12 -translate-y-1/2 -right-1/5 z-1">
   </div>
 </div>
 
@@ -227,7 +227,7 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-2 items-center justify-start h-full gap-64 px-32 py-14 bg-[#23232E] text-white"> 
+<div class="grid grid-cols-2 items-center justify-start h-full gap-64 px-32 py-14 dark:bg-[#23232E] dark:text-white"> 
   <p class="text-6xl font-black z-2">議程</p>
   <ol class="list-decimal text-md">
     <li><a href="6" class="transition-colors duration-200">專案背景</a></li>
@@ -241,7 +241,7 @@ layout: full
     v-motion
     :initial="{ x: -200 }"
     :enter="final"
-    class="absolute -z-10 bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/4 z-1">
+    class="absolute -z-10 bg-blue-50 dark:bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/4 z-1">
   </div>
 </div>
 
@@ -287,23 +287,23 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col justify-between h-full px-14 py-12  bg-[#23232E] text-white"> 
+<div class="flex flex-col justify-between h-full px-14 py-12  dark:bg-[#23232E] dark:text-white"> 
   <div class="space-y-2">
-    <p class="text-2xl font-black text-[#B7B3F4]">專案背景</p>
+    <p class="text-2xl font-black text-blue-400 dark:text-[#B7B3F4]">專案背景</p>
     <p class="text-xl tracking-wide">
-      此平台旨在為<span class="text-[#D8D5FF] underline underline-offset-4 ">外國醫療專業人士</span>提供台灣醫療專業培訓及成果的全方位資訊，並透過平台提供更完整的教育訓練與申請服務。
+      此平台旨在為<span class="text-blue-300 dark:text-[#D8D5FF] underline underline-offset-4 ">外國醫療專業人士</span>提供台灣醫療專業培訓及成果的全方位資訊，並透過平台提供更完整的教育訓練與申請服務。
     </p>
   </div>
-  <div class="grid grid-cols-4 gap-6 bg-[#4A4A58] rounded-2xl px-6 pb-3">
+  <div class="grid grid-cols-4 gap-6 bg-blue-50 dark:bg-[#4A4A58] rounded-2xl px-6 pb-3">
     <div class="space-y-2">
-      <p class="text-md font-black text-[#B7B3F4]">角色</p>
+      <p class="text-md font-black text-blue-400 dark:text-[#B7B3F4]">角色</p>
       <ul class="text-md">
         <li>UI/UX 設計師</li>
         <li>產品架構設計</li>
       </ul>
     </div>
     <div class="space-y-2">
-      <p class="text-md font-black text-[#B7B3F4]">團隊成員</p>
+      <p class="text-md font-black text-blue-400 dark:text-[#B7B3F4]">團隊成員</p>
       <ul class="text-md">
         <li>1 產品設計師</li>
         <li>1 專案經理</li>
@@ -313,7 +313,7 @@ layout: full
       </ul>
     </div>
     <div class="space-y-2">
-      <p class="text-md font-black text-[#B7B3F4]">專案時程</p>
+      <p class="text-md font-black text-blue-400 dark:text-[#B7B3F4]">專案時程</p>
       <p class="text-md">
         一年以上
         <br>
@@ -323,7 +323,7 @@ layout: full
       </p>
     </div>
     <div class="space-y-2">
-      <p class="text-md font-black text-[#B7B3F4]">服務對象</p>
+      <p class="text-md font-black text-blue-400 dark:text-[#B7B3F4]">服務對象</p>
       <p class="text-md">
         財團法人醫院評鑑暨醫療品質策進會
       </p>
@@ -356,16 +356,16 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col justify-between h-full px-14 py-12  bg-[#23232E] text-white"> 
+<div class="flex flex-col justify-between h-full px-14 py-12  dark:bg-[#23232E] dark:text-white"> 
   <div class="space-y-2">
-    <p class="text-2xl font-black text-[#B7B3F4]">設計流程</p>
+    <p class="text-2xl font-black text-blue-400 dark:text-[#B7B3F4]">設計流程</p>
     <p class="text-xl tracking-wide">
-      在這個專案中，我專注於整體<span class="text-[#D8D5FF] underline underline-offset-4 ">網站功能與架構的設計</span>，確保使用者能順利<span class="text-[#D8D5FF] underline underline-offset-4 ">瀏覽課程並完成報名流程</span>。我的主要責任是規劃一個使用者友善的線上課程報名系統，讓使用者能夠輕鬆報名課程以及查詢報名結果。
+      在這個專案中，我專注於整體<span class="text-blue-300 dark:text-[#D8D5FF] underline underline-offset-4 ">網站功能與架構的設計</span>，確保使用者能順利<span class="text-blue-300 dark:text-[#D8D5FF] underline underline-offset-4 ">瀏覽課程並完成報名流程</span>。我的主要責任是規劃一個使用者友善的線上課程報名系統，讓使用者能夠輕鬆報名課程以及查詢報名結果。
     </p>
   </div>
-  <div class="grid grid-cols-4 gap-6 bg-[#4A4A58] rounded-2xl px-6 pb-3">
+  <div class="grid grid-cols-4 gap-6 bg-blue-50 dark:bg-[#4A4A58] rounded-2xl px-6 pb-3">
     <div class="space-y-2">
-      <p class="text-md font-black text-[#B7B3F4]">研究</p>
+      <p class="text-md font-black text-blue-400 dark:text-[#B7B3F4]">研究</p>
       <ul class="text-md">
         <li>網站資訊架構（IA）</li>
         <li>課程資訊顯示</li>
@@ -374,7 +374,7 @@ layout: full
       </ul>
     </div>
     <div class="space-y-2">
-      <p class="text-md font-black text-[#B7B3F4]">定義</p>
+      <p class="text-md font-black text-blue-400 dark:text-[#B7B3F4]">定義</p>
       <ul class="text-md">
         <li>網站設計規範</li>
         <li>針對不同角色的註冊流程</li>
@@ -383,7 +383,7 @@ layout: full
       </ul>
     </div>
     <div class="space-y-2">
-      <p class="text-md font-black text-[#B7B3F4]">設計</p>
+      <p class="text-md font-black text-blue-400 dark:text-[#B7B3F4]">設計</p>
       <ul class="text-md">
         <li>元件設計</li>
         <li>網站 UI 設計</li>
@@ -392,7 +392,7 @@ layout: full
       </ul>
     </div>
     <div class="space-y-2">
-      <p class="text-md font-black text-[#B7B3F4]">測試 & 迭代</p>
+      <p class="text-md font-black text-blue-400 dark:text-[#B7B3F4]">測試 & 迭代</p>
       <ul class="text-md">
         <li>易用性測試</li>
         <li>回饋收集</li>
@@ -420,39 +420,39 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col gap-4 h-full px-14 py-12  bg-[#23232E] text-white"> 
+<div class="flex flex-col gap-4 h-full px-14 py-12  dark:bg-[#23232E] dark:text-white"> 
   <p class="text-2xl font-black ">
   ☹️ 使用者痛點
   </p>
   <div class="grid grid-cols-3 gap-6 ">
-    <div class="bg-[#4A4A58] rounded-2xl px-4 py-1">
-      <p class="text-md font-black text-[#5F5ADF] bg-white rounded-md text-center px-2 py-1">1. 醫院宣傳力道不足</p>
-      <p class="text-[#B1B1BE] text-md tracking-wide">
-        醫院擁有完善系統，但在<span class="text-[#D8D5FF] underline underline-offset-4 ">推廣上較為低調</span>。
+    <div class="bg-blue-100 dark:bg-[#4A4A58] rounded-2xl px-4 py-1">
+      <p class="text-md font-black text-blue-400 dark:text-[#5F5ADF] bg-white rounded-md text-center px-2 py-1">1. 醫院宣傳力道不足</p>
+      <p class="dark:text-[#B1B1BE] text-md tracking-wide">
+        醫院擁有完善系統，但在<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">推廣上較為低調</span>。
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-2xl px-4 py-1">
-      <p class="text-md font-black text-[#5F5ADF] bg-white rounded-md text-center px-2 py-1">2. 訓練資訊不足</p>
-      <p class="text-[#B1B1BE] text-md tracking-wide">
-        訓練資訊不夠完整，導致<span class="text-[#D8D5FF] underline underline-offset-4 ">難以清楚了解整體報名流程</span>。
+    <div class="bg-blue-100 dark:bg-[#4A4A58] rounded-2xl px-4 py-1">
+      <p class="text-md font-black text-blue-400 dark:text-[#5F5ADF] bg-white rounded-md text-center px-2 py-1">2. 訓練資訊不足</p>
+      <p class="dark:text-[#B1B1BE] text-md tracking-wide">
+        訓練資訊不夠完整，導致<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">難以清楚了解整體報名流程</span>。
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-2xl px-4 py-1">
-      <p class="text-md font-black text-[#5F5ADF] bg-white rounded-md text-center px-2 py-1">3. 訓練成果難以評估</p>
-      <p class="text-[#B1B1BE] text-md tracking-wide">
-        海外學員<span class="text-[#D8D5FF] underline underline-offset-4 ">難以查詢訓練成果與回饋結果</span>，使訓練成效難以對外展示。
+    <div class="bg-blue-100 dark:bg-[#4A4A58] rounded-2xl px-4 py-1">
+      <p class="text-md font-black text-blue-400 dark:text-[#5F5ADF] bg-white rounded-md text-center px-2 py-1">3. 訓練成果難以評估</p>
+      <p class="dark:text-[#B1B1BE] text-md tracking-wide">
+        海外學員<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">難以查詢訓練成果與回饋結果</span>，使訓練成效難以對外展示。
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-2xl px-4 py-1">
-      <p class="text-md font-black text-[#5F5ADF] bg-white rounded-md text-center px-2 py-1">4. 補件流程問題</p>
-      <p class="text-[#B1B1BE] text-md tracking-wide">
-        補交文件的<span class="text-[#D8D5FF] underline underline-offset-4 ">流程耗時費力</span>，且較為混亂。
+    <div class="bg-blue-100 dark:bg-[#4A4A58] rounded-2xl px-4 py-1">
+      <p class="text-md font-black text-blue-400 dark:text-[#5F5ADF] bg-white rounded-md text-center px-2 py-1">4. 補件流程問題</p>
+      <p class="dark:text-[#B1B1BE] text-md tracking-wide">
+        補交文件的<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">流程耗時費力</span>，且較為混亂。
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-2xl px-4 py-1">
-      <p class="text-md font-black text-[#5F5ADF] bg-white rounded-md text-center px-2 py-1">5. 客製化訓練需求</p>
-      <p class="text-[#B1B1BE] text-md tracking-wide">
-        海外醫療人員有<span class="text-[#D8D5FF] underline underline-offset-4 ">明確的學習目標</span>，並需要客製化的訓練課程。
+    <div class="bg-blue-100 dark:bg-[#4A4A58] rounded-2xl px-4 py-1">
+      <p class="text-md font-black text-blue-400 dark:text-[#5F5ADF] bg-white rounded-md text-center px-2 py-1">5. 客製化訓練需求</p>
+      <p class="dark:text-[#B1B1BE] text-md tracking-wide">
+        海外醫療人員有<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">明確的學習目標</span>，並需要客製化的訓練課程。
       </p>
     </div>
   </div>
@@ -502,42 +502,42 @@ class: p-0
 layout: full
 ---
 
-<div class="grid items-center h-full grid-cols-2 px-14 py-12  bg-[#23232E] text-white"> 
+<div class="grid items-center h-full grid-cols-2 px-14 py-12  dark:bg-[#23232E] dark:text-white"> 
   <p class="text-6xl font-black">我們的目標</p>
   <div class="grid grid-cols-1 gap-1.5 tracking-wide">
-    <div class="bg-[#4A4A58] rounded-lg px-4">
+    <div class="bg-blue-50 dark:bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        1. 建立包含<span class="text-[#D8D5FF] underline underline-offset-4 ">身分驗證</span>的註冊系統
+        1. 建立包含<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">身分驗證</span>的註冊系統
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-lg px-4">
+    <div class="bg-blue-50 dark:bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        2. <span class="text-[#D8D5FF] underline underline-offset-4 ">整合全國醫療機構</span>的課程資源
+        2. <span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">整合全國醫療機構</span>的課程資源
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-lg px-4">
+    <div class="bg-blue-50 dark:bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        3. 提供網站<span class="text-[#D8D5FF] underline underline-offset-4 ">多語言切換</span>功能
+        3. 提供網站<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">多語言切換</span>功能
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-lg px-4">
+    <div class="bg-blue-50 dark:bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        4. 提供課程的<span class="text-[#D8D5FF] underline underline-offset-4 ">分類與篩選功能</span>
+        4. 提供課程的<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">分類與篩選功能</span>
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-lg px-4">
+    <div class="bg-blue-50 dark:bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        5. 提供<span class="text-[#D8D5FF] underline underline-offset-4 ">個人 & 團體課程報名功能</span>
+        5. 提供<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">個人 & 團體課程報名功能</span>
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-lg px-4">
+    <div class="bg-blue-50 dark:bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        6. 讓學員查詢<span class="text-[#D8D5FF] underline underline-offset-4 ">報名審核結果</span>
+        6. 讓學員查詢<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">報名審核結果</span>
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-lg px-4">
+    <div class="bg-blue-50 dark:bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        7. 學員可<span class="text-[#D8D5FF] underline underline-offset-4 ">線上諮詢</span>開課單位
+        7. 學員可<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">線上諮詢</span>開課單位
       </p>
     </div>
   </div>
@@ -560,42 +560,42 @@ class: p-0
 layout: full
 ---
 
-<div class="grid items-center h-full grid-cols-2 px-14 py-12  bg-[#23232E] text-white"> 
+<div class="grid items-center h-full grid-cols-2 px-14 py-12 dark:bg-[#23232E] dark:text-white"> 
   <p class="text-6xl font-black">解決方法</p>
   <div class="grid grid-cols-1 gap-1.5 tracking-wide">
-    <div class="bg-[#4A4A58] rounded-lg px-4">
+    <div class="bg-blue-50 dark:bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        ✅ 設計具備<span class="text-[#D8D5FF] underline underline-offset-4 ">自動驗證功能</span>的文件上傳系統
+        ✅ 設計具備<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">自動驗證功能</span>的文件上傳系統
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-lg px-4">
+    <div class="bg-blue-50 dark:bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        ✅ 提供課程資訊與<span class="text-[#D8D5FF] underline underline-offset-4 ">篩選功能</span>
+        ✅ 提供課程資訊與<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">篩選功能</span>
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-lg px-4">
+    <div class="bg-blue-50 dark:bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        ✅ 顯示課程訓練的<span class="text-[#D8D5FF] underline underline-offset-4 ">回饋結果</span>
+        ✅ 顯示課程訓練的<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">回饋結果</span>
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-lg px-4">
+    <div class="bg-blue-50 dark:bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        ✅ 建立<span class="text-[#D8D5FF] underline underline-offset-4 ">多語言系統</span>
+        ✅ 建立<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">多語言系統</span>
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-lg px-4">
+    <div class="bg-blue-50 dark:bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        ✅ 建立具有動態表單的<span class="text-[#D8D5FF] underline underline-offset-4 ">雙重報名機制</span>
+        ✅ 建立具有動態表單的<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">雙重報名機制</span>
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-lg px-4">
+    <div class="bg-blue-50 dark:bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        ✅ 開發審核流程的<span class="text-[#D8D5FF] underline underline-offset-4 ">進度追蹤功能</span>
+        ✅ 開發審核流程的<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">進度追蹤功能</span>
       </p>
     </div>
-    <div class="bg-[#4A4A58] rounded-lg px-4">
+    <div class="bg-blue-50 dark:bg-[#4A4A58] rounded-lg px-4">
       <p class="tracking-wide text-md">
-        ✅ 建置<span class="text-[#D8D5FF] underline underline-offset-4 ">線上諮詢系統</span>以提供即時協助
+        ✅ 建置<span class="text-blue-400 dark:text-[#D8D5FF] underline underline-offset-4 ">線上諮詢系統</span>以提供即時協助
       </p>
     </div>
   </div>
@@ -618,7 +618,7 @@ class: p-0
 layout: full
 ---
 
-<div class="grid items-center h-full grid-cols-2 bg-[#23232E] text-white"> 
+<div class="grid items-center h-full grid-cols-2 dark:bg-[#23232E] dark:text-white"> 
   <div class="px-12 py-6 space-y-6">
     <p class="text-3xl font-black">💬 專案中遇到的挑戰</p>
     <ol class="text-xl list-decimal">
@@ -680,7 +680,7 @@ class: p-0
 layout: full
 ---
 
-<div class="grid items-center h-full grid-cols-2 px-14 py-12  bg-[#23232E] text-white"> 
+<div class="grid items-center h-full grid-cols-2 px-14 py-12  dark:bg-[#23232E] dark:text-white"> 
   <p class="text-6xl font-black leading-loose">研究 & 定義</p>
   <div>
     <p>
@@ -691,9 +691,9 @@ layout: full
         以目標使用者為導向
         <br>
         <span>
-          <ul class="text-[#B1B1BE]">
-            <li>依照<span class="text-[#D8D5FF] underline underline-offset-4 ">專業領域</span>分類課程。</li>
-            <li>色彩選用穩重且具<span class="text-[#D8D5FF] underline underline-offset-4 ">醫療專業感</span>的色調。</li>
+          <ul class="text-gray-400 dark:text-[#B1B1BE]">
+            <li>依照<span class="text-blue-300 dark:text-[#D8D5FF] underline underline-offset-4 ">專業領域</span>分類課程。</li>
+            <li>色彩選用穩重且具<span class="text-blue-300 dark:text-[#D8D5FF] underline underline-offset-4 ">醫療專業感</span>的色調。</li>
           </ul>
         </span>
       </li>
@@ -701,7 +701,7 @@ layout: full
         提升使用者體驗
         <br>
         <span>
-          <ul class="text-[#B1B1BE]">
+          <ul class="text-gray-400 dark:text-[#B1B1BE]">
             <li>提供自訂搜尋與篩選功能。</li>
             <li>簡單易懂的申請流程。</li>
             <li>審查進度清楚可見。</li>
@@ -739,7 +739,7 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col items-center h-full gap-16 text-center px-14 py-12  bg-[#23232E] text-white"> 
+<div class="flex flex-col items-center h-full gap-16 text-center px-14 py-12  dark:bg-[#23232E] dark:text-white"> 
   <p class="text-4xl font-black">培訓課程分類</p>
   <Course />
 </div>
@@ -766,11 +766,11 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col h-full px-14 py-12  bg-[#23232E] text-white gap-8"> 
+<div class="flex flex-col h-full px-14 py-12  dark:bg-[#23232E] dark:text-white gap-8"> 
   <div class="space-y-2">
-    <p class="text-2xl font-black text-[#B7B3F4]">競品分析</p>
+    <p class="text-2xl font-black text-blue-400 dark:text-[#B7B3F4]">競品分析</p>
     <p class="text-xl tracking-wide">
-      我調查了市面上具有類似課程報名功能的產品，但<span class="text-[#D8D5FF] underline underline-offset-4 ">沒有找到合適的範本</span>，這也讓我們發現，此專案開發的功能是比較<span class="text-[#D8D5FF] underline underline-offset-4 ">創新</span>的，也因此是一個比較困難的挑戰。
+      我調查了市面上具有類似課程報名功能的產品，但<span class="text-blue-300 dark:text-[#D8D5FF] underline underline-offset-4 ">沒有找到合適的範本</span>，這也讓我們發現，此專案開發的功能是比較<span class="text-blue-300 dark:text-[#D8D5FF] underline underline-offset-4 ">創新</span>的，也因此是一個比較困難的挑戰。
     </p>
   </div>
   <div class="grid grid-cols-3 gap-y-4 gap-x-32">
@@ -782,7 +782,7 @@ layout: full
           class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
-      <p class="text-sm font-black text-[#B1B1BE]">Hahow</p>
+      <p class="text-sm font-black dark:text-[#B1B1BE]">Hahow</p>
     </div>
     <div class="space-y-3 text-center">
       <div class="overflow-hidden border border-gray-100 rounded-2xl aspect-video">
@@ -792,7 +792,7 @@ layout: full
           class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
-      <p class="text-sm font-black text-[#B1B1BE]">Udemy</p>
+      <p class="text-sm font-black dark:text-[#B1B1BE]">Udemy</p>
     </div>
     <div class="space-y-3 text-center">
       <div class="overflow-hidden border border-gray-100 rounded-2xl aspect-video">
@@ -802,7 +802,7 @@ layout: full
           class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
-      <p class="text-sm font-black text-[#B1B1BE]">Coursera</p>
+      <p class="text-sm font-black dark:text-[#B1B1BE]">Coursera</p>
     </div>
     <div class="space-y-3 text-center">
       <div class="overflow-hidden border border-gray-100 rounded-2xl aspect-video">
@@ -812,7 +812,7 @@ layout: full
           class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
-      <p class="text-sm font-black text-[#B1B1BE]">Future Learn</p>
+      <p class="text-sm font-black dark:text-[#B1B1BE]">Future Learn</p>
     </div>
     <div class="space-y-3 text-center">
       <div class="overflow-hidden border border-gray-100 rounded-2xl aspect-video">
@@ -822,7 +822,7 @@ layout: full
           class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
-      <p class="text-sm font-black text-[#B1B1BE]">Techable</p>
+      <p class="text-sm font-black dark:text-[#B1B1BE]">Techable</p>
     </div>
     <div class="space-y-3 text-center">
       <div class="overflow-hidden border border-gray-100 rounded-2xl aspect-video">
@@ -832,7 +832,7 @@ layout: full
           class="w-full h-full transition-all duration-200 ease-in-out hover:scale-110"
         />
       </div>
-      <p class="text-sm font-black text-[#B1B1BE]">Klook</p>
+      <p class="text-sm font-black dark:text-[#B1B1BE]">Klook</p>
     </div>
   </div>
 </div>
@@ -878,7 +878,7 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-row items-center justify-between h-full bg-[#23232E] text-white"> 
+<div class="flex flex-row items-center justify-between h-full dark:bg-[#23232E] dark:text-white"> 
   <p class="text-5xl font-black px-14">資訊架構</p>
   <div class="h-full p-4 ">
     <img
@@ -901,7 +901,7 @@ class: p-0
 layout: full
 ---
 
-<div class="h-full text-center bg-[#23232E] text-white"> 
+<div class="h-full text-center dark:bg-[#23232E] dark:text-white"> 
   <img
     ref="image"
     src="https://i.imgur.com/RiAO6LO.png"
@@ -926,7 +926,7 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-2 items-center justify-start h-full gap-64 px-32 py-14 bg-[#23232E] text-white"> 
+<div class="grid grid-cols-2 items-center justify-start h-full gap-64 px-32 py-14 dark:bg-[#23232E] dark:text-white"> 
   <p class="text-6xl font-black z-2">設計<br><br><br>系統</p>
   <ul class="text-md">
     <li>變數設定</li>
@@ -939,7 +939,7 @@ layout: full
     v-motion
     :initial="{ x: -200 }"
     :enter="final"
-    class="absolute -z-10 bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/4 z-1">
+    class="absolute -z-10 bg-blue-50 dark:bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/4 z-1">
   </div>
 </div>
 
@@ -972,11 +972,11 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">01</span><br><br>變數設定</p>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       本專案使用<span v-mark.circle.orange>Tailwind</span>進行開發。  
       <br><br>
       我在檔案中設定了變數，方便工程師在開發時直接查看相關的 class 設定。
@@ -1004,11 +1004,11 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">01</span><br><br>變數設定</p>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">01</span><br><br>變數設定</p>
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       於畫面中可直接點擊元件，查看相關數值及變數名稱。
     </p>
   </div>
@@ -1034,15 +1034,15 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">02</span><br><br>i18n 設定</p>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">02</span><br><br>i18n 設定</p>
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       我設定了多語系變數，並按照不同的元件/頁面分類。
     </p>
   </div>
-  <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200 dark:bg-[#4A4A58]">
     <!-- 右邊內容 -->
     <img
       ref="image"
@@ -1064,15 +1064,15 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">02</span><br><br>i18n 設定</p>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">02</span><br><br>i18n 設定</p>
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       開發過程中可以在檔案中直接點擊切換查看，增加開發效率。
     </p>
   </div>
-  <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200 dark:bg-[#4A4A58]">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video2.mp4"
@@ -1092,15 +1092,15 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">03</span><br><br>Figma<br><br>設計檔案</p>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">03</span><br><br>Figma<br><br>設計檔案</p>
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       我在檔案中定義了設計系統與元件，包含其使用情境與各種狀態展示，工程師可清楚了解應用範圍。
     </p>
   </div>
-  <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200 dark:bg-[#4A4A58]">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video3.mp4"
@@ -1120,15 +1120,15 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">03</span><br><br>Figma<br><br>設計檔案</p>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">03</span><br><br>Figma<br><br>設計檔案</p>
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       我在檔案中標示了不同頁面的尺寸，並定義了各種使用情境與操作流程。
     </p>
   </div>
-  <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200 dark:bg-[#4A4A58]">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video4.mp4"
@@ -1148,15 +1148,15 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">04</span><br><br>Storybook</p>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">04</span><br><br>Storybook</p>
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       我使用 Storybook 作為視覺指引與元件展示的平台，協助開發團隊在實作過程中參考具體的設計標準，並可提升日後<span v-mark.underline.orange>維護專案</span>的效率。
     </p>
   </div>
-  <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200 dark:bg-[#4A4A58]">
     <!-- 右邊內容 -->
     <a href="https://main--6758f1bddc4388960f8ac32f.chromatic.com/?path=/story/guides-color--color-list" target="_blank" class="overflow-hidden transition-all duration-300 ease-in-out border rounded-2xl group hover:shadow-lg border-white/80">
       <img
@@ -1188,7 +1188,7 @@ class: p-0
 layout: full
 ---
 
-<div class="grid grid-cols-2 items-center justify-start h-full gap-64 px-32 py-14 bg-[#23232E] text-white"> 
+<div class="grid grid-cols-2 items-center justify-start h-full gap-64 px-32 py-14 dark:bg-[#23232E] dark:text-white"> 
   <p class="text-6xl font-black z-2">畫面<br><br><br>展示</p>
   <ul class="text-md">
     <li>註冊</li>
@@ -1203,7 +1203,7 @@ layout: full
     v-motion
     :initial="{ x: -200 }"
     :enter="final"
-    class="absolute -z-10 bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/4 z-1">
+    class="absolute -z-10 bg-blue-50 dark:bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/4 z-1">
   </div>
 </div>
 
@@ -1239,18 +1239,18 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">01</span><br><br>註冊</p>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">01</span><br><br>註冊</p>
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       使用<span v-mark.underline.orange>動態切換表單</span>，滿足不同使用者的註冊需求。
       <br>
       <br>
       維持<span v-mark.underline.orange>設計一致性</span>並降低額外的開發成本。
     </p>
   </div>
-  <div class="flex items-center justify-center h-full col-span-3 px-10 py-12 bg-[#4A4A58]">
+  <div class="flex items-center justify-center h-full col-span-3 px-10 py-12 bg-gray-200 dark:bg-[#4A4A58]">
     <!-- 右邊內容 -->
     <img
       ref="image"
@@ -1274,15 +1274,15 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">01</span><br><br>註冊</p>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">01</span><br><br>註冊</p>
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       根據不同選項<span v-mark.underline.orange>動態顯示</span>欄位。
     </p>
   </div>
-  <div class="overflow-hidden bg-cover bg-center bg-no-repeat flex col-span-3 justify-center items-center h-full bg-[#4A4A58] bg-[url('https://i.imgur.com/kxCbId4.png')]">
+  <div class="overflow-hidden bg-cover bg-center bg-no-repeat flex col-span-3 justify-center items-center h-full bg-gray-200 dark:bg-[#4A4A58] bg-[url('https://i.imgur.com/kxCbId4.png')]">
     <!-- 右邊內容 -->
     <img
       v-click
@@ -1311,15 +1311,15 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">01</span><br><br>註冊</p>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">01</span><br><br>註冊</p>
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       整合 API 資料以實現即時驗證，減少人工審核時間。
     </p>
   </div>
-  <div class="flex items-center justify-center h-full col-span-3 px-10 py-12 bg-[#4A4A58]">
+  <div class="flex items-center justify-center h-full col-span-3 px-10 py-12 bg-gray-200 dark:bg-[#4A4A58]">
     <!-- 右邊內容 -->
     <img
       ref="image"
@@ -1341,17 +1341,17 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">02</span><br><br>課程分類</p>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">02</span><br><br>課程分類</p>
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       提供可收合的篩選器，讓使用者依據不同條件進行篩選。  
       <br><br>
       課程以卡片形式設計，重點資訊清楚呈現，讓使用者可即時查看所需項目。
     </p>
   </div>
-  <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200 dark:bg-[#4A4A58]">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video5.mp4"
@@ -1371,18 +1371,18 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <div class="flex flex-col gap-2">
-      <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">03</span><br><br>課程頁面</p>
-      <span class="text-xs font-black text-white bg-[#5F5ADF] px-3 py-2 rounded-full w-fit">⭐️ 重點設計</span>
+      <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">03</span><br><br>課程頁面</p>
+      <span class="text-xs font-black text-white bg-blue-500 dark:bg-[#5F5ADF] px-3 py-2 rounded-full w-fit">⭐️ 重點設計</span>
     </div>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       使用者可即時切換資訊，方便快速瀏覽所需內容。
     </p>
   </div>
-  <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200 dark:bg-[#4A4A58]">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video6.mp4"
@@ -1404,18 +1404,18 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <div class="flex flex-col gap-2">
-      <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">04</span><br><br>個人<br><br>課程報名</p>
-      <span class="text-xs font-black text-white bg-[#5F5ADF] px-3 py-2 rounded-full w-fit">⭐️ 重點設計</span>
+      <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">04</span><br><br>個人<br><br>課程報名</p>
+      <span class="text-xs font-black text-white bg-blue-500 dark:bg-[#5F5ADF] px-3 py-2 rounded-full w-fit">⭐️ 重點設計</span>
     </div>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       以<span v-mark.underline.orange>進度條</span>顯示申請階段，將步驟拆分，避免填寫流程過長，加強使用者體驗。
     </p>
   </div>
-  <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200 dark:bg-[#4A4A58]">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video7.mp4"
@@ -1435,18 +1435,18 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <div class="flex flex-col gap-2">
-      <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">04</span><br><br>團體<br><br>課程報名</p>
-      <span class="text-xs font-black text-white bg-[#5F5ADF] px-3 py-2 rounded-full w-fit">⭐️ 重點設計</span>
+      <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">04</span><br><br>團體<br><br>課程報名</p>
+      <span class="text-xs font-black text-white bg-blue-500 dark:bg-[#5F5ADF] px-3 py-2 rounded-full w-fit">⭐️ 重點設計</span>
     </div>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       根據所選擇課程的<span v-mark.underline.orange>人數</span>，動態調整表單為團體報名模式。
     </p>
   </div>
-  <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200 dark:bg-[#4A4A58]">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video8.mp4"
@@ -1468,18 +1468,18 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">05</span><br><br>課程報名<br><br>審核進度</p>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">05</span><br><br>課程報名<br><br>審核進度</p>
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       學生可以切換不同狀態，以查看所報名課程的審核進度。
       <br>
       <br>
       點擊卡片後，將顯示詳細資訊。
     </p>
   </div>
-  <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200 dark:bg-[#4A4A58]">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video9.mp4"
@@ -1503,18 +1503,18 @@ class: p-0
 layout: full
 ---
 
-<div class="grid h-full grid-cols-4 gap-4 bg-[#23232E] text-white">
+<div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
     <div class="flex flex-col gap-2">
-      <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">06</span><br><br>線上諮詢</p>
-      <span class="text-xs font-black text-white bg-[#5F5ADF] px-3 py-2 rounded-full w-fit">⭐️ 重點設計</span>
+      <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">06</span><br><br>線上諮詢</p>
+      <span class="text-xs font-black text-white bg-blue-500 dark:bg-[#5F5ADF] px-3 py-2 rounded-full w-fit">⭐️ 重點設計</span>
     </div>
-    <p class="text-sm text-justify text-[#B1B1BE]">
+    <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       我們提供線上諮詢系統，讓學員能即時聯繫開課單位，解決相關問題。
     </p>
   </div>
-  <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200 dark:bg-[#4A4A58]">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video10.mp4"
@@ -1534,7 +1534,7 @@ class: p-0
 layout: full
 ---
 
-<div class="grid items-center justify-start h-full grid-cols-2 gap-64 px-32 py-14 bg-[#23232E] text-white"> 
+<div class="grid items-center justify-start h-full grid-cols-2 gap-64 px-32 py-14 dark:bg-[#23232E] dark:text-white"> 
   <p class="text-6xl font-black z-2">數據<br><br><br>分析</p>
   <ul class="text-md">
     <li>Google Analytics</li>
@@ -1545,7 +1545,7 @@ layout: full
     v-motion
     :initial="{ x: -200 }"
     :enter="final"
-    class="absolute -z-10 bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/4 z-1">
+    class="absolute -z-10 bg-blue-50 dark:bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/4 z-1">
   </div>
 </div>
 
@@ -1574,13 +1574,13 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col h-full px-14 py-6  bg-[#23232E] text-white gap-2"> 
+<div class="flex flex-col h-full px-14 py-6  dark:bg-[#23232E] dark:text-white gap-2"> 
   <div class="space-y-2">
-    <p class="text-2xl font-black text-[#B7B3F4]">漏斗分析（會員註冊）</p>
+    <p class="text-2xl font-black text-blue-400 dark:text-[#B7B3F4]">漏斗分析（會員註冊）</p>
     <p class="text-xl tracking-wide">
       共有124位使用者造訪註冊頁面，其中94位成功完成註冊，轉換率達76%。
       <br>
-      在<span class="text-[#D8D5FF] underline underline-offset-4 ">「填寫表單欄位」階段流失最多</span>，有10位使用者中途退出，顯示該階段可能因<span class="text-[#D8D5FF] underline underline-offset-4 ">表單複雜度或使用者猶豫產生阻礙</span>。未來可透過優化表單設計與欄位清晰度，提升完成率。
+      在<span class="text-blue-300 dark:text-[#D8D5FF] underline underline-offset-4 ">「填寫表單欄位」階段流失最多</span>，有10位使用者中途退出，顯示該階段可能因<span class="text-blue-300 dark:text-[#D8D5FF] underline underline-offset-4 ">表單複雜度或使用者猶豫產生阻礙</span>。未來可透過優化表單設計與欄位清晰度，提升完成率。
     </p>
   </div>
   <div class="mx-auto mt-2 overflow-hidden border border-gray-300 w-2xl rounded-xl">
@@ -1680,13 +1680,13 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col h-full px-14 py-6 bg-[#23232E] text-white gap-6"> 
+<div class="flex flex-col h-full px-14 py-6 dark:bg-[#23232E] dark:text-white gap-6"> 
   <div class="space-y-2">
-    <p class="text-2xl font-black text-[#B7B3F4]">漏斗分析（課程報名）</p>
+    <p class="text-2xl font-black text-blue-400 dark:text-[#B7B3F4]">漏斗分析（課程報名）</p>
     <p class="text-xl tracking-wide">
       這份漏斗分析比較了「優化前」與「優化後」的課程報名流程使用者行為。 
       <br>
-      透過將註冊流程<span class="text-[#D8D5FF] underline underline-offset-4 ">拆分為多個步驟</span>，使用者在填寫表單階段的流失數明顯下降，最終註冊轉換率由48.6%提升至75%。
+      透過將註冊流程<span class="text-blue-300 dark:text-[#D8D5FF] underline underline-offset-4 ">拆分為多個步驟</span>，使用者在填寫表單階段的流失數明顯下降，最終註冊轉換率由48.6%提升至75%。
     </p>
   </div>
    <ToggleTable />
@@ -1713,11 +1713,11 @@ class: p-0
 layout: full
 ---
 
-<div class="flex flex-col h-full px-14 py-6  bg-[#23232E] text-white gap-6"> 
+<div class="flex flex-col h-full px-14 py-6  dark:bg-[#23232E] dark:text-white gap-6"> 
   <div class="space-y-2">
-    <p class="text-2xl font-black text-[#B7B3F4]">漏斗分析（課程報名）</p>
+    <p class="text-2xl font-black text-blue-400 dark:text-[#B7B3F4]">漏斗分析（課程報名）</p>
     <p class="text-xl tracking-wide">
-      分組分析顯示，使用暫存功能最終的填答完成率為90.2%，高於未使用暫存的完成率，顯示<span class="text-[#D8D5FF] underline underline-offset-4 ">暫存功能顯著提升使用者完成報名的意願與體驗</span>。
+      分組分析顯示，使用暫存功能最終的填答完成率為90.2%，高於未使用暫存的完成率，顯示<span class="text-blue-300 dark:text-[#D8D5FF] underline underline-offset-4 ">暫存功能顯著提升使用者完成報名的意願與體驗</span>。
     </p>
   </div>
   <div>
@@ -1806,7 +1806,7 @@ layout: full
     </div>
   </div>
   <p class="text-xl tracking-wide">
-      整體來看，<span class="text-[#D8D5FF] underline underline-offset-4 ">流程拆分&暫存功能</span>是提升報名轉化率的有效優化策略。
+      整體來看，<span class="text-blue-300 dark:text-[#D8D5FF] underline underline-offset-4 ">流程拆分&暫存功能</span>是提升報名轉化率的有效優化策略。
     </p>
 </div>
 
@@ -1831,14 +1831,14 @@ class: p-0
 layout: full
 ---
 
-<div class="grid items-center h-full grid-cols-2 px-12 py-6 bg-[#23232E] text-white"> 
+<div class="grid items-center h-full grid-cols-2 px-12 py-6 dark:bg-[#23232E] dark:text-white"> 
   <p class="text-5xl font-black leading-loose">持續優化<br><br><br>Optimization</p>
   <ol class="space-y-12 text-base">
     <li class="font-black">
       <span class="flex items-center gap-3">
         <span class="relative flex w-3 h-3">
-          <span class="absolute inline-flex w-full h-full rounded-full opacity-75 bg-[#D8D5FF] animate-ping"></span>
-          <span class="relative inline-flex w-3 h-3 rounded-full bg-[#B7B3F4]"></span>
+          <span class="absolute inline-flex w-full h-full rounded-full opacity-75 bg-sky-400 dark:bg-[#D8D5FF] animate-ping"></span>
+          <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500 dark:bg-[#B7B3F4]"></span>
         </span>
         課程功能擴展
       </span>
@@ -1849,8 +1849,8 @@ layout: full
     <li class="font-black">
       <span class="flex items-center gap-3">
         <span class="relative flex w-3 h-3">
-          <span class="absolute inline-flex w-full h-full rounded-full opacity-75 bg-[#D8D5FF] animate-ping"></span>
-          <span class="relative inline-flex w-3 h-3 rounded-full bg-[#B7B3F4]"></span>
+          <span class="absolute inline-flex w-full h-full rounded-full opacity-75 bg-sky-400 dark:bg-[#D8D5FF] animate-ping"></span>
+          <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500 dark:bg-[#B7B3F4]"></span>
         </span>
         課程報名流程優化
       </span>
@@ -1861,8 +1861,8 @@ layout: full
     <li class="font-black">
       <span class="flex items-center gap-3">
         <span class="relative flex w-3 h-3">
-          <span class="absolute inline-flex w-full h-full rounded-full opacity-75 bg-[#D8D5FF] animate-ping"></span>
-          <span class="relative inline-flex w-3 h-3 rounded-full bg-[#B7B3F4]"></span>
+          <span class="absolute inline-flex w-full h-full rounded-full opacity-75 bg-sky-400 dark:bg-[#D8D5FF] animate-ping"></span>
+          <span class="relative inline-flex w-3 h-3 rounded-full bg-sky-500 dark:bg-[#B7B3F4]"></span>
         </span>
         線上諮詢系統
       </span>
@@ -1900,7 +1900,7 @@ class: p-0
 layout: full
 ---
 
-<div class="relative flex flex-col items-center justify-center h-full px-12 py-6 bg-[#23232E] text-white "> 
+<div class="relative flex flex-col items-center justify-center h-full px-12 py-6 dark:bg-[#23232E] dark:text-white "> 
   <p class="text-3xl font-black leading-loose z-2">Thank You</p>
   <div class="text-sm tracking-wide text-[#B1B1BE] z-2">
     <a href="https://tinachen-portfolio.vercel.app/" target="_blank" class="">
@@ -1920,13 +1920,13 @@ layout: full
     v-motion
     :initial="{ x: 200 }"
     :enter="final"
-    class="absolute -z-10 bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -right-1/5 z-1">
+    class="absolute -z-10 bg-blue-50 dark:bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -right-1/5 z-1">
   </div>
   <div 
     v-motion
     :initial="{ x: -200 }"
     :enter="final"
-    class="absolute -z-10 bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/5 z-1">
+    class="absolute -z-10 bg-blue-50 dark:bg-[#4A4A58] rounded-full w-[700px] aspect-square -top-[1/13] -translate-y-1/2 -left-1/5 z-1">
   </div>
 </div>
 

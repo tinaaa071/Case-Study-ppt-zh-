@@ -1,6 +1,6 @@
 <template>
     <div class="flex">
-        <button @click="toggleTable" class="px-2 py-1 text-sm text-white bg-[#5F5ADF] rounded h-fit">
+        <button @click="toggleTable" class="px-2 py-1 text-sm text-white bg-blue-500 dark:bg-[#5F5ADF] rounded h-fit">
         {{ showFirstTable ? '未拆步驟' : '拆分步驟' }}
         </button>
   

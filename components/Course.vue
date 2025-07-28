@@ -1,5 +1,5 @@
 <template>
-    <div class="relative flex items-center justify-center  p-4 rounded-3xl h-8/12 bg-[#4A4A58]">
+    <div class="relative flex items-center justify-center  p-4 rounded-3xl h-8/12 dark:bg-[#4A4A58] bg-gradient-to-br to-green-200/20 via-purple-200/20 from-blue-300/20">
       <!-- Axes -->
       <div class="absolute inset-x-0 border-t border-gray-300 top-1/2"></div>
       <div class="absolute inset-y-0 border-l border-gray-300 left-1/2"></div>

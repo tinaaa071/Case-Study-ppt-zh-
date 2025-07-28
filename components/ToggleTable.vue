@@ -14,7 +14,7 @@
         <th class="px-4 py-2 text-center">完成數</th>
         <th class="px-4 py-2 text-center">該步驟流失數</th>
         <th class="px-4 py-2 text-center">跨步驟流失數</th>
-        <th class="px-4 py-2 text-center">整體留存率</th>
+        <th class="px-4 py-2 text-center">整體轉換率</th>
         </tr>
     </thead>
     <tbody>
@@ -85,7 +85,7 @@
           <th class="px-4 py-2 text-center">完成數</th>
           <th class="px-4 py-2 text-center">該步驟流失數</th>
           <th class="px-4 py-2 text-center">跨步驟流失數</th>
-          <th class="px-4 py-2 text-center">整體留存率</th>
+          <th class="px-4 py-2 text-center">整體轉換率</th>
         </tr>
       </thead>
       <tbody>

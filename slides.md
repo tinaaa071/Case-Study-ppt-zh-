@@ -1578,7 +1578,7 @@ layout: full
   <div class="space-y-2">
     <p class="text-2xl font-black text-[#B7B3F4]">漏斗分析（會員註冊）</p>
     <p class="text-xl tracking-wide">
-      共有124位使用者造訪註冊頁面，其中94位成功完成註冊，留存率達76%。
+      共有124位使用者造訪註冊頁面，其中94位成功完成註冊，轉換率達76%。
       <br>
       在<span class="text-[#D8D5FF] underline underline-offset-4 ">「填寫表單欄位」階段流失最多</span>，有10位使用者中途退出，顯示該階段可能因<span class="text-[#D8D5FF] underline underline-offset-4 ">表單複雜度或使用者猶豫產生阻礙</span>。未來可透過優化表單設計與欄位清晰度，提升完成率。
     </p>
@@ -1592,7 +1592,7 @@ layout: full
           <th class="px-4 py-2 text-center">使用者數</th>
           <th class="px-4 py-2 text-center">完成數</th>
           <th class="px-4 py-2 text-center">流失數</th>
-          <th class="px-4 py-2 text-center">留存率</th>
+          <th class="px-4 py-2 text-center">轉換率</th>
         </tr>
       </thead>
       <tbody>
@@ -1686,7 +1686,7 @@ layout: full
     <p class="text-xl tracking-wide">
       這份漏斗分析比較了「優化前」與「優化後」的課程報名流程使用者行為。 
       <br>
-      透過將註冊流程<span class="text-[#D8D5FF] underline underline-offset-4 ">拆分為多個步驟</span>，使用者在填寫表單階段的流失率明顯下降，最終註冊完成率由48.6%提升至75%。
+      透過將註冊流程<span class="text-[#D8D5FF] underline underline-offset-4 ">拆分為多個步驟</span>，使用者在填寫表單階段的流失數明顯下降，最終註冊轉換率由48.6%提升至75%。
     </p>
   </div>
    <ToggleTable />
@@ -1820,7 +1820,7 @@ layout: full
 </style>
 
 <!--
-分組分析顯示，使用「暫存功能」的使用者在各關鍵步驟均有較高留存率，顯示暫存功能顯著提升使用者完成報名的意願與體驗。
+分組分析顯示，使用「暫存功能」的使用者在各關鍵步驟均有較高轉換率，顯示暫存功能顯著提升使用者完成報名的意願與體驗。
 
 整體來看，流程拆分與暫存功能是提升報名轉化率的重要優化策略。
 -->

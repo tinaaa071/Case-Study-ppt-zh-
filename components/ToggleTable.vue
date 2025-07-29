@@ -20,7 +20,7 @@
     <tbody>
         <tr class="text-center">
         <td class="px-4 py-2">查看課程詳情</td>
-        <td class="px-4 py-2"><code>view_course_detail</code></td>
+        <td class="px-4 py-2"><code class="dark:bg-gray-100">view_course_detail</code></td>
         <td class="px-4 py-2">72</td>
         <td class="px-4 py-2">72</td>
         <td class="px-4 py-2">0</td>
@@ -29,7 +29,7 @@
         </tr>
         <tr class="text-center bg-gray-50">
         <td class="px-4 py-2">點擊報名按鈕</td>
-        <td class="px-4 py-2"><code>click_register_button</code></td>
+        <td class="px-4 py-2"><code class="dark:bg-gray-100">click_register_button</code></td>
         <td class="px-4 py-2">69</td>
         <td class="px-4 py-2">69</td>
         <td class="px-4 py-2">0</td>
@@ -38,7 +38,7 @@
         </tr>
         <tr class="text-center ">
         <td class="px-4 py-2">確認報名課程</td>
-        <td class="px-4 py-2"><code>confirm_registration</code></td>
+        <td class="px-4 py-2"><code class="dark:bg-gray-100">confirm_registration</code></td>
         <td class="px-4 py-2">69</td>
         <td class="px-4 py-2">69</td>
         <td class="px-4 py-2">0</td>
@@ -47,7 +47,7 @@
         </tr>
         <tr class="text-center bg-red-100">
         <td class="px-4 py-2">填寫報名表單</td>
-        <td class="px-4 py-2"><code>fill_registration_form</code></td>
+        <td class="px-4 py-2"><code class="dark:bg-gray-100">fill_registration_form</code></td>
         <td class="px-4 py-2">65</td>
         <td class="px-4 py-2 text-red-500">41</td>
         <td class="px-4 py-2 text-red-500">24</td>
@@ -56,7 +56,7 @@
         </tr>
         <tr class="text-center ">
         <td class="px-4 py-2">送出報名表單</td>
-        <td class="px-4 py-2"><code>submit_registration</code></td>
+        <td class="px-4 py-2"><code class="dark:bg-gray-100">submit_registration</code></td>
         <td class="px-4 py-2">41</td>
         <td class="px-4 py-2">35</td>
         <td class="px-4 py-2">6</td>
@@ -65,7 +65,7 @@
         </tr>
         <tr class="text-center bg-gray-50">
         <td class="px-4 py-2">報名成功頁</td>
-        <td class="px-4 py-2"><code>registration_success</code></td>
+        <td class="px-4 py-2"><code class="dark:bg-gray-100">registration_success</code></td>
         <td class="px-4 py-2">35</td>
         <td class="px-4 py-2">35</td>
         <td class="px-4 py-2">0</td>
@@ -91,7 +91,7 @@
       <tbody>
         <tr class="text-center">
           <td class="px-4 py-2">查看課程詳情</td>
-          <td class="px-4 py-2"><code>view_course_detail</code></td>
+          <td class="px-4 py-2"><code class="dark:bg-gray-100">view_course_detail</code></td>
           <td class="px-4 py-2">72</td>
           <td class="px-4 py-2">72</td>
           <td class="px-4 py-2">0</td>
@@ -100,7 +100,7 @@
         </tr>
         <tr class="text-center">
           <td class="px-4 py-2">點擊報名按鈕</td>
-          <td class="px-4 py-2"><code>click_register_button</code></td>
+          <td class="px-4 py-2"><code class="dark:bg-gray-100">click_register_button</code></td>
           <td class="px-4 py-2">69</td>
           <td class="px-4 py-2">69</td>
           <td class="px-4 py-2">0</td>
@@ -109,7 +109,7 @@
         </tr>
         <tr class="text-center">
           <td class="px-4 py-2">確認報名課程</td>
-          <td class="px-4 py-2"><code>confirm_registration</code></td>
+          <td class="px-4 py-2"><code class="dark:bg-gray-100">confirm_registration</code></td>
           <td class="px-4 py-2">69</td>
           <td class="px-4 py-2">69</td>
           <td class="px-4 py-2">0</td>
@@ -118,7 +118,7 @@
         </tr>
         <tr class="text-center bg-green-100">
           <td class="px-4 py-2">填寫個人資料表</td>
-          <td class="px-4 py-2"><code>fill_personal_info</code></td>
+          <td class="px-4 py-2"><code class="dark:bg-gray-100">fill_personal_info</code></td>
           <td class="px-4 py-2">65</td>
           <td class="px-4 py-2">57</td>
           <td class="px-4 py-2">8</td>
@@ -127,7 +127,7 @@
         </tr>
         <tr class="text-center bg-green-100">
           <td class="px-4 py-2">填寫上傳文件表</td>
-          <td class="px-4 py-2"><code>fill_upload_documents</code></td>
+          <td class="px-4 py-2"><code class="dark:bg-gray-100">fill_upload_documents</code></td>
           <td class="px-4 py-2">57</td>
           <td class="px-4 py-2">55</td>
           <td class="px-4 py-2">2</td>
@@ -136,7 +136,7 @@
         </tr>
         <tr class="text-center bg-green-100">
           <td class="px-4 py-2">送出報名表單</td>
-          <td class="px-4 py-2"><code>submit_registration</code></td>
+          <td class="px-4 py-2"><code class="dark:bg-gray-100">submit_registration</code></td>
           <td class="px-4 py-2">55</td>
           <td class="px-4 py-2">54</td>
           <td class="px-4 py-2">1</td>
@@ -145,7 +145,7 @@
         </tr>
         <tr class="text-center">
           <td class="px-4 py-2">報名成功頁</td>
-          <td class="px-4 py-2"><code>registration_success</code></td>
+          <td class="px-4 py-2"><code class="dark:bg-gray-100">registration_success</code></td>
           <td class="px-4 py-2">55</td>
           <td class="px-4 py-2">54</td>
           <td class="px-4 py-2">0</td>

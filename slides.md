@@ -975,14 +975,14 @@ layout: full
 <div class="grid h-full grid-cols-4 gap-4 dark:bg-[#23232E] dark:text-white">
   <div class="flex flex-col justify-between h-full col-span-1 px-10 py-6">
     <!-- 左邊內容 -->
-    <p class="text-4xl font-black"><span class="font-extrabold text-[#B7B3F4]">01</span><br><br>變數設定</p>
+    <p class="text-4xl font-black"><span class="font-extrabold text-blue-300 dark:text-[#B7B3F4]">01</span><br><br>變數設定</p>
     <p class="text-sm text-justify text-gray-500 dark:text-[#B1B1BE]">
       本專案使用<span v-mark.circle.orange>Tailwind</span>進行開發。  
       <br><br>
       我在檔案中設定了變數，方便工程師在開發時直接查看相關的 class 設定。
     </p>
   </div>
-  <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200 dark:bg-[#4A4A58]">
     <!-- 右邊內容 -->
     <img
       ref="image"
@@ -1012,7 +1012,7 @@ layout: full
       於畫面中可直接點擊元件，查看相關數值及變數名稱。
     </p>
   </div>
-  <div class="flex items-center h-full col-span-3 px-10 bg-[#4A4A58]">
+  <div class="flex items-center h-full col-span-3 px-10 bg-gray-200 dark:bg-[#4A4A58]">
     <!-- 右邊內容 -->
     <Video
       src="https://tinaaa071.github.io/Case-Study-ppt/video1.mp4"
@@ -1598,7 +1598,7 @@ layout: full
       <tbody>
         <tr class="text-center">
           <td class="px-4 py-2">開啟註冊頁</td>
-          <td class="px-4 py-2"><code>view_signup_page</code></td>
+          <td class="px-4 py-2"><code class="dark:bg-gray-100">view_signup_page</code></td>
           <td class="px-4 py-2">124</td>
           <td class="px-4 py-2">124</td>
           <td class="px-4 py-2">-</td>
@@ -1606,7 +1606,7 @@ layout: full
         </tr>
         <tr class="text-center bg-gray-50">
           <td class="px-4 py-2">輸入 Email</td>
-          <td class="px-4 py-2"><code>input_email</code></td>
+          <td class="px-4 py-2"><code class="dark:bg-gray-100">input_email</code></td>
           <td class="px-4 py-2">124</td>
           <td class="px-4 py-2">115</td>
           <td class="px-4 py-2">9</td>
@@ -1614,7 +1614,7 @@ layout: full
         </tr>
         <tr class="text-center">
           <td class="px-4 py-2">發送驗證碼</td>
-          <td class="px-4 py-2"><code>send_verification_code</code></td>
+          <td class="px-4 py-2"><code class="dark:bg-gray-100">send_verification_code</code></td>
           <td class="px-4 py-2">115</td>
           <td class="px-4 py-2">110</td>
           <td class="px-4 py-2">5</td>
@@ -1622,7 +1622,7 @@ layout: full
         </tr>
         <tr class="text-center bg-red-100">
           <td class="px-4 py-2">填寫表單欄位</td>
-          <td class="px-4 py-2"><code>complete_form_fields</code></td>
+          <td class="px-4 py-2"><code class="dark:bg-gray-100">complete_form_fields</code></td>
           <td class="px-4 py-2">110</td>
           <td class="px-4 py-2">100</td>
           <td class="px-4 py-2 text-red-500">10</td>
@@ -1630,7 +1630,7 @@ layout: full
         </tr>
         <tr class="text-center">
           <td class="px-4 py-2">勾選同意條款</td>
-          <td class="px-4 py-2"><code>agree_terms</code></td>
+          <td class="px-4 py-2"><code class="dark:bg-gray-100">agree_terms</code></td>
           <td class="px-4 py-2">100</td>
           <td class="px-4 py-2">98</td>
           <td class="px-4 py-2">2</td>
@@ -1638,7 +1638,7 @@ layout: full
         </tr>
         <tr class="text-center bg-gray-50">
           <td class="px-4 py-2">點擊註冊按鈕</td>
-          <td class="px-4 py-2"><code>click_signup</code></td>
+          <td class="px-4 py-2"><code class="dark:bg-gray-100">click_signup</code></td>
           <td class="px-4 py-2">98</td>
           <td class="px-4 py-2">96</td>
           <td class="px-4 py-2">2</td>
@@ -1646,7 +1646,7 @@ layout: full
         </tr>
         <tr class="text-center">
           <td class="px-4 py-2">註冊成功</td>
-          <td class="px-4 py-2"><code>signup_success</code></td>
+          <td class="px-4 py-2"><code class="dark:bg-gray-100">signup_success</code></td>
           <td class="px-4 py-2">96</td>
           <td class="px-4 py-2">94</td>
           <td class="px-4 py-2">2</td>

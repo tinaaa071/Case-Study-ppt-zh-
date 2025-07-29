@@ -24,7 +24,7 @@
   
         <!-- 水平線 -->
         <div
-          class="absolute top-16 w-32 h-0.5 bg-[#B7B3F4] rounded-full transform translate-x-1/2 left-1/9"
+          class="absolute top-16 w-32 h-0.5 bg-blue-300 dark:bg-[#B7B3F4] rounded-full transform translate-x-1/2 left-1/9"
           v-if="index < events.length - 1"
         ></div>
   

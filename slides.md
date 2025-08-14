@@ -684,11 +684,11 @@ layout: full
   <p class="text-6xl font-black leading-loose">研究 & 定義</p>
   <div>
     <p>
-      在分析使用者需求與功能架構後，我為此專案設定了兩個設計方向：
+      在分析使用者需求與功能架構後，我們為此專案設定了兩個設計方向：
     </p>
     <ol class="list-decimal text-md">
       <li>
-        以目標使用者為導向
+        使用者中心設計
         <br>
         <span>
           <ul class="text-gray-400 dark:text-[#B1B1BE]">
@@ -698,7 +698,7 @@ layout: full
         </span>
       </li>
       <li>
-        提升使用者體驗
+        功能設計強調使用者體驗
         <br>
         <span>
           <ul class="text-gray-400 dark:text-[#B1B1BE]">
@@ -1686,7 +1686,7 @@ layout: full
     <p class="text-xl tracking-wide">
       這份漏斗分析比較了「優化前」與「優化後」的課程報名流程使用者行為。 
       <br>
-      透過將註冊流程<span class="text-blue-300 dark:text-[#D8D5FF] underline underline-offset-4 ">拆分為多個步驟</span>，使用者在填寫表單階段的流失數明顯下降，最終註冊轉換率由48.6%提升至75%。
+      透過將報名流程<span class="text-blue-300 dark:text-[#D8D5FF] underline underline-offset-4 ">拆分為多個步驟</span>，使用者在填寫表單階段的流失數明顯下降，最終報名轉換率由48.6%提升至75%。
     </p>
   </div>
    <ToggleTable />

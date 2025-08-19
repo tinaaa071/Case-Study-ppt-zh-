@@ -61,11 +61,7 @@ mdc: true
 <!--
 大家好，我是 Tina，擁有三年的 UI/UX 設計經驗，並具備<span style="color:red;">***企業管理碩士學位***</span>。
 
-在這段經歷中，我培養了一些<span style="color:red;">***人格特質***</span>，讓我能夠<span style="color:red;">***勝任這份工作並為團隊創造價值***</span>：
-
-1. 熱情驅動 – 對設計的熱愛讓我持續精進，投入每個專案都全力以赴。
-2. 充滿好奇心 – 我樂於探索<span style="color:red;">***新技術與趨勢***</span>，並會將<span style="color:red;">***創新思維***</span>應用於設計中。
-3. 快速學習能力 – 能迅速<span style="color:red;">***掌握新工具與技能***</span>，應對多變的專案需求。
+專長是使用者研究、介面設計以及跨團隊協作，能將使用者需求與商業目標有效結合，有參與過大型 B2B/B2C 產品開發的經驗。
 -->
 
 ---
@@ -86,9 +82,9 @@ layout: full
 
 我曾在「中經院」擔任研究員，這段經歷讓我培養了<span style="color:red;">***資料分析與市場洞察的能力***</span>。同年，我也在 TCA 擔任 PM，負責行動支付的專案管理，與 Line Pay、街口支付等業者合作，進一步提升了我<span style="color:red;">***跨部門溝通的能力***</span>。
 
-後續職涯中，我轉職成為 UI/UX 設計師，目前於「諾亞克科技」任職，在這個職位中，我更專注於<span style="color:red;">***跨團隊協作與大型專案的執行***</span>。
+後來，我轉職成為 UI/UX 設計師，目前於「諾亞克科技」任職，我們公司主要承接政府專案以及長照系統的開發，我主要的工作內容是 UIUX 設計以及切版，我也因此自學了一些前端框架技術。
 
-這些多元的經歷，豐富了我的專業能力，也讓我能夠以更全面的角度理解<span style="color:red;">***使用者需求***</span>與<span style="color:red;">***產品開發流程***</span>。
+（這些多元的經歷，豐富了我的專業能力，也讓我能夠以更全面的角度理解<span style="color:red;">***使用者需求***</span>與<span style="color:red;">***產品開發流程***</span>。）
 -->
 
 ---
@@ -154,12 +150,14 @@ layout: full
 </style>
 
 <!--
-在我的個人生活中，我喜歡旅行、看影集和學習。
+（在我的個人生活中，我喜歡旅行、看影集也常常自我學習。）
+
+平常我也會自我學習，像是最近有參與 Google 的 AI 課程，還有區塊鏈和虛擬貨幣的課程。
 
 假日裡，我會去探索不同的咖啡廳，這也讓我開發了一個「咖啡廳尋店」的專案。
 主要目標是為了幫助用戶<span style="color:red;">***更快速找到適合的咖啡廳***</span>。
 
-此外，我獨自開發了一個 Figma 插件，並且在上架不久後，受到了 Adobe 團隊的開發邀請。
+我也做了一些個人專題，像是獨自開發了 Figma 插件，並且在上架後，受到了 Adobe 團隊的開發邀請。
 -->
 
 ---
@@ -409,9 +407,9 @@ layout: full
 </style>
 
 <!--
-我們深入研究<span style="color:red;">***用戶需求***</span>，專注打造<span style="color:red;">***直覺且友善***</span>的網站，確保使用者能輕鬆瀏覽課程並順利完成報名。
-
 我們的設計流程，包含了<span style="color:red;">***用戶研究到功能設計***</span>，以及後續的設計迭代。
+
+（在深入研究<span style="color:red;">***用戶需求***</span>，專注打造<span style="color:red;">***直覺且友善***</span>的網站，確保使用者能輕鬆瀏覽課程並順利完成報名。）
 -->
 
 ---
@@ -558,6 +556,7 @@ layout: full
 transition: slide-up
 class: p-0
 layout: full
+hide: true
 ---
 
 <div class="grid items-center h-full grid-cols-2 px-14 py-12 dark:bg-[#23232E] dark:text-white"> 
